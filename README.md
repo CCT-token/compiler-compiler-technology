@@ -27,10 +27,87 @@ The Compiler Compiler System is a **tool**.
 Being a tool, it is about bettering the lives for software developers.
 
 ## Figure of a Traditional Compiler Compiler
-![alt text](C:\Users\noahh\Downloads
+![alt text](http://compilercompilertechnology.com/wp-content/uploads/2017/12/Capture.png)
 
 
 
+## Figure of our Compiler Compiler System
+![alt text](http://compilercompilertechnology.com/wp-content/uploads/2017/12/Capture2.png)
+
+A compiler compiler executable program, 205, takes compiler compiler
+source grammar definition language source text defining itself
+(meta grammar), 201, and performs a phase 2.1a,
+generating compiler compiler runtime, 202, for the meta grammar from 201.
+Compiler compiler executable program, 205, has an option to 
+de-compile the meta grammar generated compiler compiler runtime, 202, 
+into a text file (not shown) containing the meta grammar executing phase, 2.1b. 
+This newly de-compiled meta grammar as a text is identical to the meta grammar 201 
+except for some differences related to supported indentation rules.
+
+Compiler compiler executable program 205 for meta grammar 201 performs phase 2.2a generating compiler
+compiler binary 203 for compiler compiler runtime 202. The phase 2.2a is implemented as a formal procedure that
+converts compiler compiler runtime 202 into compiler compiler binary 203. Compiler compiler executable program
+205 has an option to de-compile meta grammar from generated compiler compiler binary 203 into a text file (not
+shown) containing meta grammar executing phase 2.2c. This newly de-compiled meta grammar as a text is identical
+to meta grammar 201 except for some differences related to supported indentation rules. Compiler compiler
+executable program 205 has an option to re-create a compiler compiler runtime that is identical to original compiler
+compiler runtime 202 having compiler compiler binary 203 executing phase 2.2b.
+
+Compiler compiler executable program 205 performs phase 2.3 creating a compiler compiler generated code 204
+corresponding to meta grammar 201. The compiler compiler source grammar definition language consists of a
+grammar name section followed by a sequence of rules where the first rule is also a grammar axiom. As used
+herein, the grammar name section consists of a single identifier that defines a name of grammar. 
+
+
+## As an example,
+When C++ compiler compiler executable program 205 takes the following meta grammar source file:
+(meta
+ (grammar ::=
+      0 =" METAACTBEG();"=
+      '(' grammarNameDef
+          { rule }
+       ')'
+        0 =" METAACTEND();"=
+ )
+ (grammarNameDef ::= identifier
+ )
+ (rule ::= '(' nterm '::=' right ')'
+ )
+ (nterm ::= identifier
+ )
+ (right ::= { element }
+ )
+ (element ::= identAlt | alternative | identMiss | iteration | action
+ )
+ (action ::= integerToken '=' { stringToken } '='
+ )
+ (actions ::= '=' { action } '='
+ )
+ (identAlt ::= ntermtermact { Altpart }
+ )
+ (Altpart ::= '|' ntermtermact
+ )
+ (ntermtermact ::= ntermterm [ actions ]
+ )
+ (ntermterm ::= nterm | termToken
+ )
+ (alternative ::= '(' identAlt ')'
+ )
+ (identMiss ::= '[' identAlt ']'
+ )
+ (iteration ::= '{' iterItemact iterItems '}'
+ )
+ (iterItems ::= { altIterItem }
+ )
+ (altIterItem ::= '|' iterItemact
+ )
+ (iterItemact ::= iterItem [ actions ]
+ )
+ (iterItem ::= nterm | maybeNterm
+ )
+ (maybeNterm ::= '<' nterm '>'
+ )
+)
 
 
 
