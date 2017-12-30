@@ -60,54 +60,54 @@ herein, the grammar name section consists of a single identifier that defines a 
 
 
 ## As an example,
-When C++ compiler compiler executable program 205 takes the following meta grammar source file:
-(meta
- (grammar ::=
-      0 =" METAACTBEG();"=
-      '(' grammarNameDef
-          { rule }
-       ')'
-        0 =" METAACTEND();"=
+When C++ compiler compiler executable program 205 takes the following meta grammar source file:  
+(meta  
+   (grammar ::=  
+      0 =" METAACTBEG();"=  
+      '(' grammarNameDef  
+          { rule }  
+       ')'  
+        0 =" METAACTEND();"=  
+ )  
+ (grammarNameDef ::= identifier  
+ )  
+ (rule ::= '(' nterm '::=' right ')'  
+ )  
+ (nterm ::= identifier  
+ )  
+ (right ::= { element }  
  )
- (grammarNameDef ::= identifier
- )
- (rule ::= '(' nterm '::=' right ')'
- )
- (nterm ::= identifier
- )
- (right ::= { element }
- )
- (element ::= identAlt | alternative | identMiss | iteration | action
- )
- (action ::= integerToken '=' { stringToken } '='
- )
- (actions ::= '=' { action } '='
- )
- (identAlt ::= ntermtermact { Altpart }
- )
- (Altpart ::= '|' ntermtermact
- )
- (ntermtermact ::= ntermterm [ actions ]
- )
- (ntermterm ::= nterm | termToken
- )
- (alternative ::= '(' identAlt ')'
- )
- (identMiss ::= '[' identAlt ']'
- )
- (iteration ::= '{' iterItemact iterItems '}'
- )
- (iterItems ::= { altIterItem }
- )
- (altIterItem ::= '|' iterItemact
- )
- (iterItemact ::= iterItem [ actions ]
- )
- (iterItem ::= nterm | maybeNterm
- )
- (maybeNterm ::= '<' nterm '>'
- )
-)
+ (element ::= identAlt | alternative | identMiss | iteration | action  
+ )  
+ (action ::= integerToken '=' { stringToken } '='  
+ )  
+ (actions ::= '=' { action } '='  
+ )  
+ (identAlt ::= ntermtermact { Altpart }  
+ )  
+ (Altpart ::= '|' ntermtermact  
+ )  
+ (ntermtermact ::= ntermterm [ actions ]  
+ )  
+ (ntermterm ::= nterm | termToken  
+ )  
+ (alternative ::= '(' identAlt ')'  
+ )  
+ (identMiss ::= '[' identAlt ']'  
+ )  
+ (iteration ::= '{' iterItemact iterItems '}'  
+ )  
+ (iterItems ::= { altIterItem }  
+ )  
+ (altIterItem ::= '|' iterItemact  
+ )  
+ (iterItemact ::= iterItem [ actions ]  
+ )  
+ (iterItem ::= nterm | maybeNterm  
+ )  
+ (maybeNterm ::= '<' nterm '>'  
+ )  
+)  
 
 
 
