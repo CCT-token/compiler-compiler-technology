@@ -110,6 +110,162 @@ When C++ compiler compiler executable program 205 takes the following meta gramm
 )  
 
 
+As a result of phase 2.3 the following C++ source files are generated:
+- metaGenerator.h
+- metaKeyWordDefinition.h
+- metaParser.h
+- metaGenerator.cc
+- metaKeyWordDefinition.cc
+- metaParser.cc
+- metaMakeGenerators.cc
+
+Note, that the 'meta' prefix in file names corresponds to the grammar name - the first section identifier in source
+grammar definition language. 
+Note also that
+**0 =" METAACTBEG();"=**
+**0 =" METAACTEND();"=**
+are used as a special macro substitution actions defined in form of integer number followed by sequence of string
+literals enclosed in '=' and '='. 
+
+## Compiler Compiler System elements and rules:  
+The compiler compiler source grammar definition language elements such as '(' and ')' are grammar terminals  
+defined as a string literal with enclosed single quotes.   
+  
+**The compiler compiler source grammar definition language element:**  
+{ rule }  
+is a BNF extension called iteration, meaning that enclosed by { and } non-terminal may occur zero or any
+other number of times.  
+Note, that, e.g., rule  
+(iterationExample ::= { element } )  
+is equivalent to rules  
+(iterationExample ::= element iterationExample )  
+(iterationExample ::= )  
+
+**The compiler compiler source grammar definition language rule:** 
+(rule ::= '(' nterm '::=' right ')'  
+ )  
+defines rule as a terminal '(' followed by non-terminal nterm followed by terminal '::=' followed by non-terminal  
+right followed by terminal ')'.  
+
+**The compiler compiler source grammar definition language rule:**
+ (nterm ::= identifier  
+ )  
+defines non-terminal nterm as identifier.  
+
+**The compiler compiler source grammar definition language rule:**  
+ (right ::= { element }  
+ )  
+defines non-terminal right as an iteration of element non-terminals.  
+
+**The compiler compiler source grammar definition language rule:**  
+ (element ::= identAlt | alternative | identMiss | iteration | action  
+ )  
+defines non-terminal element as an alternative of non-terminals on the right side of rule definition separated by '|'.  
+The alternative is BNF extension similar to iteration extension; it is used in cases when non-terminal on the left side
+of rule definition can be one of non-terminals from the right side. Note, that, e.g., rule  
+(alternativeExample ::= A | B | C | Z )  
+is equivalent to rules  
+(alternativeExample ::= A )  
+(alternativeExample ::= B )  
+(alternativeExample ::= C )  
+(alternativeExample ::= Z )  
+
+**The compiler compiler source grammar definition language rule:**  
+ (action ::= integerToken '=' { stringToken } '='  
+ )  
+defines non-terminal action as an integerToken followed by terminal '=' followed by iteration of stringToken  
+followed by terminal '='. Here integerToken and stringToken are another compiler compiler source grammar  
+definition language reserved key words similar to identifier. integerToken defines token that holds integer value.  
+stringToken defines token that holds string literal value as an arbitrary sequence of any characters enclosed with  
+double quotes, i.e., ".  
+
+**The compiler compiler source grammar definition language rule:**  
+ (actions ::= '=' { action } '='  
+ )  
+defines non-terminal actions as a iteration of action enclosed with '='.  
+
+**The compiler compiler source grammar definition language rule:**  
+ (identAlt ::= ntermtermact { Altpart }  
+ )  
+defines non-terminal identAlt as a ntermtermact followed by iteration of Altpart non-terminals.  
+
+**The compiler compiler source grammar definition language rule:**  
+ (Altpart ::= '|' ntermtermact  
+ )  
+defines non-terminal Altpart as a terminal '|' followed by non-terminal ntermtermact.  
+
+**The compiler compiler source grammar definition language rule:**  
+ (ntermtermact ::= ntermterm [ actions ]  
+ )  
+defines non-terminal ntermtermact as a non-terminal ntermterm followed by [ actions ] meaning that non-terminal  
+actions may be omitted. Non-terminal enclosed with [ and ] is another compiler compiler source grammar definition  
+language BNF extension representing elements that can be omitted. Note, that, e.g., rule  
+(ommitedElementExample ::= A [ W ])  
+is equivalent to rules:  
+(ommitedElementExample ::= A Welement )  
+(Welement::= W )  
+(Welement::= )  
+
+**The compiler compiler source grammar definition language rule:**  
+ (ntermterm ::= nterm | termToken  
+ )  
+defines non-terminal ntermterm as an alternative of nterm of termToken. nterm is defined above.  
+termToken is another compiler compiler source grammar definition language reserved key word that defines  
+terminal token specification as a string literal enclosed with single quotes.  
+
+**The compiler compiler source grammar definition language rule:**  
+ (alternative ::= '(' identAlt ')'  
+ )  
+defines non-terminal alternative as an identAlt enclosed with terminals '(' and ')'.  
+
+**The compiler compiler source grammar definition language rule:**  
+ (identMiss ::= '[' identAlt ']'  
+ )  
+defines non-terminal identMiss as an identAlt enclosed with terminals '[' and ']'.  
+
+**The compiler compiler source grammar definition language rule:**  
+ (iteration ::= '{' iterItemact iterItems '}'  
+ )   
+defines non-terminal iteration as an iterItemact followed by non-terminal iterItems enclosed with 
+terminals '{' and '}'.  
+
+**The compiler compiler source grammar definition language rule:**  
+ (iterItems ::= { altIterItem }  
+ )  
+defines non-terminal iterItems as an iteration of altIterItem non-terminals.  
+
+**The compiler compiler source grammar definition language rule:**  
+ (altIterItem ::= '|' iterItemact  
+ )  
+defines non-terminal altIterItem as terminal '|' followed by non-terminal iterItemact.  
+
+**The compiler compiler source grammar definition language rule:**  
+ (iterItemact ::= iterItem [ actions ]  
+ )  
+defines non-terminal iterItemact as non-terminal iterItem followed by [ actions ].  
+
+**The compiler compiler source grammar definition language rule:**  
+ (iterItem ::= nterm | maybeNterm  
+ )  
+defines non-terminal iterItem as an alternative of non-terminals nterm and maybeNterm.  
+
+**The compiler compiler source grammar definition language rule:**  
+ (maybeNterm ::= '<' nterm '>'  
+ )  
+defines non-terminal maybeNterm as non-terminal nterm enclosed between terminals '<' and '>'.   
+
+The compiler compiler source grammar definition language iteration is actually defined as a sequence of terminals or nonterminals
+may be followed by actions, and also non-terminals may be enclosed between terminals '<' and '>'
+meaning that such non-terminal is allowed to be in iteration only zero or one time.   
+Note, that, e.g., the rule  
+(anotherIterationExampe :: = { A | B | <X> | <Z> } )  
+is equivalent to the rules  
+(anotherIterationExampe :: = elem anotherIterationExampe )  
+(anotherIterationExampe :: = )  
+(elem ::= A | B | X | Z )  
+
+
+
 
 
 
