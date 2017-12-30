@@ -1,14 +1,29 @@
 # cctToken, using Compiler Compiler Technology
 
 # Table of contents
-- [Compiler Compiler System (CCS)](#compiler-compiler-system)
-- [Figure of a Traditional Compiler Compiler](#figure-of-a-traditional-compiler-compiler)
-- [Figure of our Compiler Compiler System](#figure-of-our-compiler-compiler-system)
-- [Compiler Compiler System elements and rules](#compiler-compiler-system-elements-and-rules)
-- [Installation](#installation)
-- [Download](#download)
-- [License](#license)
-- [Patent](#patent)
+* CCT Information
+   - [Compiler Compiler System (CCS)](#compiler-compiler-system)
+   - [Figure of a Traditional Compiler Compiler](#figure-of-a-traditional-compiler-compiler)
+   - [Figure of our Compiler Compiler System](#figure-of-our-compiler-compiler-system)
+   - [Compiler Compiler System elements and rules](#compiler-compiler-system-elements-and-rules)
+   - [Installation](#installation)
+   - [Download](#download)
+   - [License](#license)
+   - [Patent](#patent)
+ * CCT Integration with Community
+    - [Purpose](#purpose)
+ * Comparison Analysis
+   - [Artificial Intelligence](#artificial-intelligence)
+   - [Information of Things](#information-of-things)
+   - [Platform Platform](#platform-platform)
+   - [Blockchain](#blockchain)
+   - [Interoperability](#interoperability)
+   - [Standardization](#standardization)
+   - [Scalability](#scalability)
+   - [Security based on Obfuscation](#security-based-on-obfuscation)
+   - [Business Model](#business-model)
+
+# CCT Information  
 
 ## Compiler Compiler System
 [(Back to top)](#table-of-contents)  
@@ -294,8 +309,22 @@ Download Video
 [(Back to top)](#table-of-contents)  
 
 
+# CCT Integration with Community  
+
+## Purpose  
+[(Back to top)](#table-of-contents)  
 
 
+# Comparison Analysis  
+## Artificial Intelligence  
+## Information of Things  
+## Platform Platform  
+## Blockchain  
+## Interoperability  
+## Standardization  
+## Scalability  
+## Security Based On Obfuscation
+## Business Model
 
 
 
