@@ -1,4 +1,6 @@
 # cctToken, using Compiler Compiler Technology
+License (Links)
+US Patent (Links)
 
 ## Compiler Compiler System (CCS): a compiler creating compilers.
 
@@ -23,6 +25,35 @@ These areas, as well as their solutions, will be discussed further down.
 The Compiler Compiler System is a **tool**.
 
 Being a tool, it is about bettering the lives for software developers.
+
+## Figure of a Traditional Compiler Compiler
+![alt text](C:\Users\noahh\Downloads
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## It Leverages Data
