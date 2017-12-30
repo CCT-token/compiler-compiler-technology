@@ -1,12 +1,13 @@
 # cctToken, using Compiler Compiler Technology
-License (Links)
-US Patent (Links)
 
 # Table of contents
 - [Compiler Compiler System (CCS)](#compiler-compiler-system)
 - [Figure of a Traditional Compiler Compiler](#figure-of-a-traditional-compiler-compiler)
 - [Figure of our Compiler Compiler System](#figure-of-our-compiler-compiler-system)
 - [Compiler Compiler System elements and rules](#compiler-compiler-system-elements-and-rules)
+- [Installation](#installation)
+- [License](#license)
+- [Patent](#patent)
 
 ## Compiler Compiler System
 [(Back to top)](#table-of-contents)  
@@ -277,6 +278,16 @@ Note, that, e.g., the rule
       (anotherIterationExampe :: = )  
       (elem ::= A | B | X | Z )  
 
+## Installation  
+[(Back to top)](#table-of-contents)  
+Download Instructions  
+Download Video  
+
+## License  
+[(Back to top)](#table-of-contents)  
+
+## Patent  
+[(Back to top)](#table-of-contents)  
 
 
 
@@ -284,60 +295,3 @@ Note, that, e.g., the rule
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## It Leverages Data
-
-You might already know that ClojureScript is a modern Lisp, and that
-Lisps are **homoiconic**.  If not, you do now.
-
-This homoiconic bit is significant. It means you program in a Lisp by creating and
-assembling Lisp data structures. Dwell on that for a moment. You are **programming in data**. 
-The functions which later transform data, themselves start as data.
-
-Clojure programmers place particular emphasis on the primacy of data, and 
-they like to meditate on aphorisms like **data is the ultimate in late binding**. 
-(Less productively, they also like re-watching Rich Hickey videos, and wishing
-their hair was darker and more curly)
-
-I cannot stress enough what a big deal this is. It may seem 
-like a syntax curiosity at first but, when the penny drops for 
-you on this, it tends to be a profound moment. And once you 
-understand the importance of this concept at the language level, 
-you naturally want to leverage similar power at the library and system levels.
-
-So, it will come as no surprise, then, to know that re-frame has a 
-data oriented design. Events are data. Effects are data. DOM is data.
-The functions which transform data are registered and looked up via 
-data. Interceptors (data) are preferred over middleware (higher 
-order functions). Etc. 
-
-**Data - that's the way we roll.**
-
-
-## It is a loop
-
-Architecturally, re-frame implements "a perpetual loop".
-
-To build an app, you hang pure functions on certain parts of this loop, 
-and re-frame looks after the **conveyance of data** 
-around the loop, into and out of the transforming functions you 
-provide - hence a tag line of "Derived Values, Flowing".
-
-### It does Physics
