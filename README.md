@@ -139,18 +139,18 @@ other number of times.*
          (iterationExample ::= { element } )  
          is equivalent to rules  
          (iterationExample ::= element iterationExample )  
-         (iterationExample ::= )  
+         (iterationExample ::= )***  
 
 **The compiler compiler source grammar definition language rule:** 
  (rule ::= '(' nterm '::=' right ')'  
  )  
 *defines rule as a terminal '(' followed by non-terminal nterm followed by terminal '::=' followed by non-terminal  
-right followed by terminal ')'. *
+right followed by terminal ')'.*
 
 **The compiler compiler source grammar definition language rule:**
  (nterm ::= identifier  
  )  
-*defines non-terminal nterm as identifier. * 
+*defines non-terminal nterm as identifier.* 
 
 **The compiler compiler source grammar definition language rule:**  
  (right ::= { element }  
@@ -178,7 +178,7 @@ of rule definition can be one of non-terminals from the right side.*
 followed by terminal '='. Here integerToken and stringToken are another compiler compiler source grammar  
 definition language reserved key words similar to identifier. integerToken defines token that holds integer value.  
 stringToken defines token that holds string literal value as an arbitrary sequence of any characters enclosed with  
-double quotes, i.e., ".  *
+double quotes, i.e., ".*
 
 **The compiler compiler source grammar definition language rule:**  
  (actions ::= '=' { action } '='  
@@ -200,7 +200,7 @@ double quotes, i.e., ".  *
  )  
 *defines non-terminal ntermtermact as a non-terminal ntermterm followed by [ actions ] meaning that non-terminal  
 actions may be omitted. Non-terminal enclosed with [ and ] is another compiler compiler source grammar definition  
-language BNF extension representing elements that can be omitted. *
+language BNF extension representing elements that can be omitted.*
 ***Note, that, e.g., rule  
       (ommitedElementExample ::= A [ W ])  
       is equivalent to rules:  
