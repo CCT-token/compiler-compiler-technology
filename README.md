@@ -1,7 +1,6 @@
 # cctToken, using Compiler Compiler Technology
 
-## Compiler Compiler System
-compiler compiler system (CCS): a compiler creating compilers.
+## Compiler Compiler System (CCS): a compiler creating compilers.
 
 The CCS is a tool, enabling programs to compile any source code. 
 
@@ -21,45 +20,9 @@ slowdowns; Compilation, Interoperability, Obfuscation, Security,
 Content Management, Scaleability, Standardization.
 These areas, as well as their solutions, will be discussed further down.
 
-re-frame is a pattern for writing [SPAs] in ClojureScript, using [Reagent].
+The Compiler Compiler System is a **tool**.
 
-McCoy might report "It's MVC, Jim, but not as we know it".  And you would respond 
-"McCoy, you trouble maker, why even mention an OO pattern? 
-re-frame is a **functional framework**."
-
-Being a functional framework, it is about data, and the functions 
-which transform that data.
-
-## Why Should You Care?
-
-Perhaps:
-
-1.  You want to develop an [SPA] in ClojureScript, and you are looking for a framework.
-2.  You believe Facebook did something magnificent when it created React, and
-    you are curious about the further implications. Is the combination of
-    `reactive programming`, `functional programming` and `immutable data` going to
-    **completely change everything**?  And, if so, what would that look like in a language
-    that embraces those paradigms?
-3.  You're taking a [Functional Design and Programming course](http://www.eli.sdsu.edu/courses/fall15/cs696/index.html) at San Diego State University
-    and you have a re-frame/reagent assignment due.  You've left the reading a bit late, right?
-4.  You know Redux, Elm, Cycle.js or Pux and you're
-    interested in a ClojureScript implementation.
-    In this space, re-frame is very old, hopefully in a Gandalf kind of way.
-    First designed in Dec 2014, it even slightly pre-dates the official Elm Architecture,
-    although thankfully we were influenced by early-Elm concepts like `foldp` and `lift`, as well as 
-    Clojure projects like [Pedestal App], [Om] and [Hoplon]. Since then,
-    re-frame has pioneered ideas like event handler middleware,
-    coeffect accretion, and de-duplicated signal graphs.
-5.  Which brings us to the most important point: **re-frame is impressively buzzword compliant**. It has reactivity,
-    unidirectional data flow, pristinely pure functions,
-    interceptors, coeffects, conveyor belts, statechart-friendliness (FSM)
-    and claims an immaculate hammock conception. It also has a charming
-    xkcd reference (soon) and a hilarious, insiders-joke T-shirt,
-    ideal for conferences (in design).  What could possibly go wrong?
-
-[OM]:https://github.com/swannodette/om
-[Hoplon]:http://hoplon.io/
-[Pedestal App]:https://github.com/pedestal/pedestal-app
+Being a tool, it is about bettering the lives for software developers.
 
 
 ## It Leverages Data
