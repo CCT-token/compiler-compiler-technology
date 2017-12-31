@@ -89,11 +89,10 @@ executable program performs **Phase 2.3** creating  a Compiler compiler generate
 ## Compiler Compiler Technology Terms  
 Source Grammar Definition Language  
 Compiler Compiler Runtime API  
-Compiler Compiler Binary API 
-Compiler Compiler executable program
-
-## Meta Grammar Example:  
+Compiler Compiler Binary API  
+Compiler Compiler executable program  
   
+## Meta Grammar Example:  
 ## As an example,  
 When C++ compiler compiler executable program 205 takes the following meta grammar source file:    
 (meta  
