@@ -153,38 +153,39 @@ As a result of phase 2.3 the following C++ source files are generated:
 - metaParser.cc  
 - metaMakeGenerators.cc  
   
-Note, that the 'meta' prefix in file names corresponds to the grammar name - the first section identifier in source  
-grammar definition language.    
+Note, that the 'meta' prefix in file names corresponds to the grammar name  
+- the first section identifier in source grammar definition language.    
 Note also that  
 **0 =" METAACTBEG();"=**  
 **0 =" METAACTEND();"=**  
-are used as a special macro substitution actions defined in form of integer number followed by sequence of string  
-literals enclosed in '=' and '='.     
+are used as a special macro substitution actions defined in form of integer  
+number followed by sequence of string  literals enclosed in '=' and '='.       
   
 ## Compiler Compiler System elements and rules      
 [(Back to top)](#table-of-contents)  
-The compiler compiler source grammar definition language elements such as '(' and ')' are grammar terminals  
-defined as a string literal with enclosed single quotes.  
+The compiler compiler source grammar definition language elements such as '(' and ')'  
+are grammar terminals defined as a string literal with enclosed single quotes.  
   
-The Compiler Compiler Source Grammar Definition Language consists of a  
-grammar "name" section followed by a sequence of rules where the first rule is also a grammar axiom. As used  
-herein, the grammar name section consists of a single identifier that defines a name of grammar.  
+The Compiler Compiler Source Grammar Definition Language consists of a grammar "name"  
+section followed by a sequence of rules where the first rule is also a grammar axiom.  
+As used  herein, the grammar name section consists of a single identifier that defines a name of grammar.  
   
 **The compiler compiler source grammar definition language element:**    
 { rule }  
-*is a BNF extension called iteration, meaning that enclosed by { and } non-terminal may occur zero or any  
-other number of times.*  
-***Note, that, e.g., rule  
+*is a BNF extension called iteration, meaning that enclosed by { and } 
+non-terminal may occur zero or any  other number of times.*  
+Note, that, e.g., rule  
          (iterationExample ::= { element } )  
          is equivalent to rules  
          (iterationExample ::= element iterationExample )  
-         (iterationExample ::= )***  
+         (iterationExample ::= )  
   
 **The compiler compiler source grammar definition language rule:**    
  (rule ::= '(' nterm '::=' right ')'  
  )  
-*defines rule as a terminal '(' followed by non-terminal nterm followed by terminal '::=' followed by non-terminal  
-right followed by terminal ')'.*  
+*defines rule as a terminal '('  
+followed by non-terminal nterm, followed by terminal '::=',  
+followed by non-terminal right, followed by terminal ')'.*  
   
 **The compiler compiler source grammar definition language rule:**  
  (nterm ::= identifier  
@@ -199,25 +200,27 @@ right followed by terminal ')'.*
 **The compiler compiler source grammar definition language rule:**    
  (element ::= identAlt | alternative | identMiss | iteration | action    
  )    
-*defines non-terminal element as an alternative of non-terminals on the right side of rule definition separated by '|'.  
-The alternative is BNF extension similar to iteration extension; it is used in cases when non-terminal on the left side  
-of rule definition can be one of non-terminals from the right side.*  
-***Note, that, e.g., rule  
+*defines non-terminal element as an alternative of non-terminals on the right side of  
+rule definition separated by '|'. The alternative is BNF extension similar to  
+iteration extension; it is used in cases when non-terminal on the left side of  
+rule definition can be one of non-terminals from the right side.*  
+Note, that, e.g., rule  
       (alternativeExample ::= A | B | C | Z )  
       is equivalent to rules  
       (alternativeExample ::= A )  
       (alternativeExample ::= B )  
       (alternativeExample ::= C )  
-      (alternativeExample ::= Z )***
+      (alternativeExample ::= Z )
   
 **The compiler compiler source grammar definition language rule:**    
  (action ::= integerToken '=' { stringToken } '='  
  )  
-*defines non-terminal action as an integerToken followed by terminal '=' followed by iteration of stringToken    
-followed by terminal '='. Here integerToken and stringToken are another compiler compiler source grammar  
-definition language reserved key words similar to identifier. integerToken defines token that holds integer value.    
-stringToken defines token that holds string literal value as an arbitrary sequence of any characters enclosed with  
-double quotes, i.e., ".*  
+*defines non-terminal action as an integerToken followed by terminal '=',  
+followed by iteration of stringToken followed by terminal '='. Here integerToken   
+and stringToken are another Compiler Compiler Source Grammar Definition Language  
+reserved key words similar to identifier. integerToken defines token that holds  
+integer value. stringToken defines token that holds string literal value as an  
+arbitrary sequence of any characters enclosed with double quotes, i.e., ".*  
   
 **The compiler compiler source grammar definition language rule:**    
  (actions ::= '=' { action } '='  
@@ -237,15 +240,15 @@ double quotes, i.e., ".*
 **The compiler compiler source grammar definition language rule:**    
  (ntermtermact ::= ntermterm [ actions ]  
  )  
-*defines non-terminal ntermtermact as a non-terminal ntermterm followed by [ actions ] meaning that non-terminal  
-actions may be omitted. Non-terminal enclosed with [ and ] is another compiler compiler source grammar definition   
-language BNF extension representing elements that can be omitted.*  
-***Note, that, e.g., rule  
+*defines non-terminal ntermtermact as a non-terminal ntermterm followed by [ actions ] meaning that  
+non-terminal actions may be omitted. Non-terminal enclosed with [ and ] is another compiler compiler  
+source grammar definition language BNF extension representing elements that can be omitted.*  
+Note, that, e.g., rule  
       (ommitedElementExample ::= A [ W ])  
       is equivalent to rules:  
       (ommitedElementExample ::= A Welement )    
       (Welement::= W )  
-      (Welement::= )***  
+      (Welement::= )  
   
 **The compiler compiler source grammar definition language rule:**    
  (ntermterm ::= nterm | termToken  
@@ -295,9 +298,10 @@ terminals '{' and '}'.*
  )  
 *defines non-terminal maybeNterm as non-terminal nterm enclosed between terminals '<' and '>'.*  
   
-The compiler compiler source grammar definition language iteration is actually defined as a sequence of terminals or nonterminals  
-may be followed by actions, and also non-terminals may be enclosed between terminals '<' and '>'  
-meaning that such non-terminal is allowed to be in iteration only zero or one time.    
+The compiler compiler source grammar definition language iteration is actually defined as  
+a sequence of terminals or nonterminals may be followed by actions, and also non-terminals  
+may be enclosed between terminals '<' and '>' meaning that such non-terminal is allowed to  
+be in iteration only zero or one time.     
 Note, that, e.g., the rule  
       (anotherIterationExampe :: = { A | B | <X> | <Z> } )  
       is equivalent to the rules  
