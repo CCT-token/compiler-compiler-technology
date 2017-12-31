@@ -15,7 +15,7 @@
     - [Purpose](#purpose)
  * [Comparison Analysis](#comparison-analysis)
    - [Artificial Intelligence](#artificial-intelligence)
-   - [Internet of Things](#Internet-of-things)
+   - [Internet of Things](#internet-of-things)
    - [Platform Platform](#platform-platform)
    - [Blockchain](#blockchain)
    - [Interoperability](#interoperability)
