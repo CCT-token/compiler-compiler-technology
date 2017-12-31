@@ -62,7 +62,7 @@ Being a tool, it is about bettering the lives for software developers.
 [(Back to top)](#table-of-contents)  
 ![alt text](http://compilercompilertechnology.com/wp-content/uploads/2017/12/Capture2.png)
 
-The whole goal of the diagram is to come to the end stage, **Stage 205**, which results in  
+The last stage in the diagram, **Stage 205**, results in  
 a Compiler Compiler System executable program. This stage is generated from **Stage 201**,  
 when inputed Compiler Compiler Source Grammar Definition Language text, which defines itself   
 (regarded as meta grammar). Stage 201 performs **Phase 2.1a**, generating **Stage 202**,  
