@@ -61,30 +61,39 @@ Being a tool, it is about bettering the lives for software developers.
 [(Back to top)](#table-of-contents)  
 ![alt text](http://compilercompilertechnology.com/wp-content/uploads/2017/12/Capture2.png)
 
-A compiler compiler executable program, 205, takes compiler compiler  
-source grammar definition language source text defining itself  
-(meta grammar), 201, and performs a phase 2.1a,  
-generating compiler compiler runtime, 202, for the meta grammar from 201.  
-Compiler compiler executable program, 205, has an option to   
-de-compile the meta grammar generated compiler compiler runtime, 202,   
-into a text file (not shown) containing the meta grammar executing phase, 2.1b.   
-This newly de-compiled meta grammar as a text is identical to the meta grammar 201   
-except for some differences related to supported indentation rules.  
+The whole goal of the diagram is to come to the end stage,  
+**Stage 205**, which results in a Compiler Compiler System executable program.  
+This stage is generated from **Stage 201**, 
+when inputed Compiler Compiler Source Grammar Definition Language text, which defines itself 
+(regarded as meta grammar). Stage 201 performs **Phase 2.1a**, generating **Stage 202**, the Compiler Compiler Runtime API.  
+The Compiler Compiler executable program from Stage 205, has an option to    
+de-compile the, meta grammar generated, Compiler Compiler Runtime API  
+into a text file (not shown), which contains the meta grammar executing phase, shown in Phase **2.1b**.    
+This newly de-compiled meta grammar as a text, is identical to the meta grammar  
+from Stage 201 except for some differences related to supported indentation rules.    
   
-Compiler compiler executable program 205 for meta grammar 201 performs phase 2.2a generating compiler  
-compiler binary 203 for compiler compiler runtime 202. The phase 2.2a is implemented as a formal procedure that  
-converts compiler compiler runtime 202 into compiler compiler binary 203. Compiler compiler executable program  
-205 has an option to de-compile meta grammar from generated compiler compiler binary 203 into a text file (not  
-shown) containing meta grammar executing phase 2.2c. This newly de-compiled meta grammar as a text is identical  
-to meta grammar 201 except for some differences related to supported indentation rules. Compiler compiler  
-executable program 205 has an option to re-create a compiler compiler runtime that is identical to original compiler  
-compiler runtime 202 having compiler compiler binary 203 executing phase 2.2b.  
+The Compiler Compiler executable program for the given meta grammar performs **Phase 2.2a**,  
+generating the Compiler Compiler Binary API, **Stage 203** for the corresponding  
+Compiler Compiler Runtime API. Phase 2.2a is implemented as a formal procedure that  
+converts Compiler Compiler Runtime into Compiler Compiler Binary. The Compiler Compiler executable program  
+has an option to de-compile the meta grammar, generated from the Compiler Compiler Binary, into a text file (not  
+shown) containing the meta grammar executing phase, **Phase 2.2c**. This newly de-compiled meta grammar, as a text, is identical  
+to meta grammar from Stage 201 except for some differences related to supported indentation rules. 
+
+Having the Compiler Compiler Binary executing phase 2.2b, the Compiler Compiler
+executable program has an option to re-create a Compiler Compiler Runtime that 
+is identical to the original Compiler Compiler Runtime from Stage 202.
   
-Compiler compiler executable program 205 performs phase 2.3 creating a compiler compiler generated code 204  
-corresponding to meta grammar 201. The compiler compiler source grammar definition language consists of a  
-grammar name section followed by a sequence of rules where the first rule is also a grammar axiom. As used  
-herein, the grammar name section consists of a single identifier that defines a name of grammar.   
+The Compiler Compiler executable program performs **Phase 2.3** creating a Compiler compiler generated code, **Stage 204**  
+corresponding to the meta grammar from Stage 201.   
   
+## Compiler Compiler Technology Terms  
+Source Grammar Definition Language  
+Compiler Compiler Runtime API  
+Compiler Compiler Binary API 
+Compiler Compiler executable program
+
+## Meta Grammar Example:  
   
 ## As an example,  
 When C++ compiler compiler executable program 205 takes the following meta grammar source file:    
@@ -157,7 +166,11 @@ literals enclosed in '=' and '='.
 ## Compiler Compiler System elements and rules      
 [(Back to top)](#table-of-contents)  
 The compiler compiler source grammar definition language elements such as '(' and ')' are grammar terminals  
-defined as a string literal with enclosed single quotes.   
+defined as a string literal with enclosed single quotes.  
+  
+The Compiler Compiler Source Grammar Definition Language consists of a  
+grammar "name" section followed by a sequence of rules where the first rule is also a grammar axiom. As used  
+herein, the grammar name section consists of a single identifier that defines a name of grammar.  
   
 **The compiler compiler source grammar definition language element:**    
 { rule }  
