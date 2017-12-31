@@ -1,5 +1,4 @@
-## Software Developers -DApp- Community,  
-## using Compiler Compiler Technology  
+## Software Developers -DApp- Community, using Compiler Compiler Technology  
 
 # Table of contents
 * [CCT Information](#cct-information)
