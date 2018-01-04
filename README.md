@@ -14,7 +14,7 @@
    - [License](#license)
    - [Patent](#patent)
 ###### Part II - Non-Technical
- * [CCT Integration with Community](#cct-integration-with-community)  
+ * [Free Proprietary Software Bootstrapping Based on CCT](#free-proprietary-software-bootstrapping-based-on-cct)  
     - [Purpose](#purpose)
 ###### Part III - Non-Technical
  * [Comparison Analysis](#comparison-analysis)
@@ -354,11 +354,11 @@ Download Video
 ---  
   
   
-# CCT Integration with Community  
+# Free Proprietary Software Bootstrapping Based on CCT
   
 ## Purpose
 [(Back to top)](#table-of-contents)
-   
+     
   
 # Comparison Analysis
 [(Back to top)](#table-of-contents)
