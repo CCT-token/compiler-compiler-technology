@@ -1,6 +1,7 @@
 ## Software Developers -DApp- Community, using Compiler Compiler Technology  
 
 # Table of Contents
+###### Part I  
 * [CCT Information](#cct-information)
    - [Compiler Compiler System (CCS)](#compiler-compiler-system)
    - [Figure of a Traditional Compiler Compiler](#figure-of-a-traditional-compiler-compiler)
@@ -11,8 +12,10 @@
    - [Download](#download)
    - [License](#license)
    - [Patent](#patent)
- * [CCT Integration with Community](#cct-integration-with-community)
+###### Part II
+ * [CCT Integration with Community](#cct-integration-with-community)  
     - [Purpose](#purpose)
+###### Part III
  * [Comparison Analysis](#comparison-analysis)
    - [Artificial Intelligence](#artificial-intelligence)
    - [Internet of Things](#internet-of-things)
@@ -38,7 +41,7 @@ compiled and linked into an executable program.
   
 After the Compiler Compiler System runs, it creates a program   
 that is ready to compile source code and also it is  
-ready to generate Compiler Compiler(CC) syntax controlled binary, as well as it is  
+ready to generate Compiler Compiler (CC) syntax controlled binary, as well as it is  
 ready to decompile the binary to its original definition.     
   
 The Compiler Compiler System's (CCS) important feature of generating  
