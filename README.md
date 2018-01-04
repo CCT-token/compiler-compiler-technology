@@ -312,21 +312,22 @@ Note, that, e.g., the rule
       (elem ::= A | B | X | Z )  
   
 ## Download  
-//zip
+//zip (after edit)
 
 ## Installation  
-Download Instructions  
-//clean up instr.
+//clean up installment-> Download Instructions  
 Download Video  
   
 ## License    
-[License ](http://compilercompilertechnology.com/wp-content/uploads/2018/01/CCTDevelopmentAndInternalUseLicenseFinal.pdf)
+[License](http://compilercompilertechnology.com/wp-content/uploads/2018/01/CCTDevelopmentAndInternalUseLicenseFinal.pdf)
   
    
 ## Patent  
-  //pdf link
-  
+[Patent](http://compilercompilertechnology.com/wp-content/uploads/2017/03/US-08464232.pdf)  
+ 
+---   
 [(Back to top)](#table-of-contents)  
+---  
   
   
 # CCT Integration with Community  
