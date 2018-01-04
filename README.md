@@ -1,6 +1,6 @@
 ## Software Developers -DApp- Community, using Compiler Compiler Technology  
 
-# Table of contents
+# Table of Contents
 * [CCT Information](#cct-information)
    - [Compiler Compiler System (CCS)](#compiler-compiler-system)
    - [Figure of a Traditional Compiler Compiler](#figure-of-a-traditional-compiler-compiler)
