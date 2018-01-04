@@ -7,6 +7,7 @@
    - [Figure of a Traditional Compiler Compiler](#figure-of-a-traditional-compiler-compiler)
    - [Figure of our Compiler Compiler System](#figure-of-our-compiler-compiler-system)
    - [Compiler Compiler System Elements and Rules](#compiler-compiler-system-elements-and-rules)
+   - [CCS Syntax-Controlled Runtime API and CCS Syntax-Controlled Binary API](#significance-of-ccs-syntax-controlled-runtime-api-and-ccs-syntax-controlled-binary-api)
    - [Compiler Compiler Technology Terms](#compiler-compiler-technology-terms)
    - [Installation](#installation)
    - [Download](#download)
@@ -35,17 +36,17 @@
 *a compiler creating compilers.*  
 The CCS is a tool, enabling programs to compile any source code. 
   
-The CCS has a specific Source Grammar Definition Language, which is  
+The CCS has a specific Source Grammar Definition Language (SGDL), which is  
 used as an input to generate a target parser with additional code,  
 compiled and linked into an executable program.     
   
 After the Compiler Compiler System runs, it creates a program   
 that is ready to compile source code and also it is  
-ready to generate Compiler Compiler (CC) syntax controlled binary, as well as it is  
+ready to generate Compiler Compiler System (CCS) Syntax-Controlled Binary, as well as it is  
 ready to decompile the binary to its original definition.     
   
-The Compiler Compiler System's (CCS) important feature of generating  
-CC syntax controlled binary and then decompling that binary to its   
+The Compiler Compiler System's important feature of generating  
+CCS Syntax-Controlled Binary and then decompling that binary to its   
 original form will prove to provide solutions to many technological  
 slowdowns: Compilation, Interoperability, Obfuscation, Security,  
 Content Management, Scaleability, Standardization.   
@@ -67,30 +68,30 @@ Being a tool, it is about bettering the lives for software developers.
 
 The last stage in the diagram, **Stage 205**, results in  
 a Compiler Compiler System executable program. This stage is generated from **Stage 201**,  
-when inputed CC source grammar definition language text, which defines itself   
+when inputed CCS Source Grammar Definition Language text, which defines itself   
 (regarded as meta grammar). Stage 201 performs **Phase 2.1a**, generating **Stage 202**,  
-the Compiler Compiler Runtime API. The Compiler Compiler executable program from Stage 205,  
+the Compiler Compiler System Syntax-Controlled Runtime API. The Compiler Compiler executable program from Stage 205,  
 has an option to de-compile the, meta grammar generated, Compiler Compiler Runtime API into  
 a text file (not shown), which contains the meta grammar executing phase, shown in Phase **2.1b**.      
 This newly de-compiled meta grammar as a text, is identical to the meta grammar from  
 Stage 201 except for some differences related to supported indentation rules.    
   
 The Compiler Compiler executable program for the given meta grammar performs **Phase 2.2a**,  
-generating the Compiler Compiler Binary API, **Stage 203** for the corresponding  
-Compiler Compiler Runtime API. Phase 2.2a is implemented as a formal procedure that converts  
-Compiler Compiler Runtime into Compiler Compiler Binary. The Compiler Compiler executable program    
-has an option to de-compile the meta grammar, generated from the Compiler Compiler Binary, into a   
+generating the Compiler Compiler Syntax-Controlled Binary API, **Stage 203** for the corresponding  
+Compiler Compiler Syntax-Controlled Runtime API. Phase 2.2a is implemented as a formal procedure that converts  
+CCS Syntax-Controlled Runtime into CCS Syntax-Controlled Binary. The Compiler Compiler executable program    
+has an option to de-compile the meta grammar, generated from the CCS Syntax-Controlled Binary, into a   
 text file (not shown) containing the meta grammar executing phase, **Phase 2.2c**. This newly  
 de-compiled meta grammar, as a text, is identical to meta grammar from Stage 201 except for some  
 differences related to supported indentation rules.  
   
-Having the Compiler Compiler Binary executing phase 2.2b, the Compiler Compiler  
-executable program has an option to re-create a Compiler Compiler Runtime that  
+Having the Compiler Compiler Syntax-Controlled Binary executing phase 2.2b, the Compiler Compiler  
+executable program has an option to re-create a Compiler Compiler Syntax-Controlled Runtime that  
 is identical to the original Compiler Compiler Runtime from Stage 202. The Compiler Compiler  
 executable program performs **Phase 2.3** creating Compiler compiler generated code,  
 **Stage 204** corresponding to the meta grammar from Stage 201.   
   
- ## Significance of CC Runtime and CC Binary  
+ ## Significance of CCS Syntax-Controlled Runtime API and CCS Syntax-Controlled Binary API
 *The C++ CCS Syntax-Controlled Runtime API is defined in these files:  
 include/SyntaxControlledRuntime.h and src/SyntaxControlledRuntime.cc*  
   
@@ -101,8 +102,8 @@ include/SyntaxControlledBinary.h and src/SyntaxControlledBinary.cc*
 [(Back to top)](#table-of-contents)  
 meta grammar  
 Source Grammar Definition Language  
-Compiler Compiler Runtime API  
-Compiler Compiler Binary API  
+Compiler Compiler System Syntax-Controlled Runtime API  
+Compiler Compiler System Syntax-Controlled Binary API  
 Compiler Compiler executable program  
   
 ## Meta Grammar Example:  
@@ -167,7 +168,7 @@ As a result of phase 2.3 the following C++ source files are generated:
 - metaMakeGenerators.cc  
   
 Note, that the 'meta' prefix in file names corresponds to the grammar name  
-- the first section identifier in source grammar definition language.    
+- the first section identifier in SGDL.    
 Note also that  
 **0 =" METAACTBEG();"=**  
 **0 =" METAACTEND();"=**  
