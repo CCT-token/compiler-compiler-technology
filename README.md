@@ -38,15 +38,15 @@ compiled and linked into an executable program.
   
 After the Compiler Compiler System runs, it creates a program   
 that is ready to compile source code and also it is  
-ready to generate syntax controlled binary, as well as it is  
-ready to decompile binary to its original definition.     
+ready to generate Compiler Compiler(CC) syntax controlled binary, as well as it is  
+ready to decompile the binary to its original definition.     
   
-The Compiler Compiler System's important feature of generating  
-syntax controlled binary and then decompling that binary to its   
+The Compiler Compiler System's (CCS) important feature of generating  
+CC syntax controlled binary and then decompling that binary to its   
 original form will prove to provide solutions to many technological  
-slowdowns; Compilation, Interoperability, Obfuscation, Security,  
+slowdowns: Compilation, Interoperability, Obfuscation, Security,  
 Content Management, Scaleability, Standardization.   
-These areas, as well as their solutions, will be discussed further down.  
+These areas, as well as their solutions, will be discussed below.  
   
 The Compiler Compiler System is a **tool**.  
   
