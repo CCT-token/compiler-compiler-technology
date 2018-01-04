@@ -84,11 +84,19 @@ differences related to supported indentation rules.
 Having the Compiler Compiler Binary executing phase 2.2b, the Compiler Compiler  
 executable program has an option to re-create a Compiler Compiler Runtime that  
 is identical to the original Compiler Compiler Runtime from Stage 202. The Compiler Compiler  
-executable program performs **Phase 2.3** creating  a Compiler compiler generated code,  
+executable program performs **Phase 2.3** creating Compiler compiler generated code,  
 **Stage 204** corresponding to the meta grammar from Stage 201.   
+  
+ ## Significance of CC Runtime and CC Binary  
+*The C++ CCS Syntax-Controlled Runtime API is defined in these files:  
+include/SyntaxControlledRuntime.h and src/SyntaxControlledRuntime.cc*  
+  
+*The C++ CCS Syntax-Controlled Binary API is defined in these files:  
+include/SyntaxControlledBinary.h and src/SyntaxControlledBinary.cc*  
   
 ## Compiler Compiler Technology Terms  
 [(Back to top)](#table-of-contents)  
+meta grammar  
 Source Grammar Definition Language  
 Compiler Compiler Runtime API  
 Compiler Compiler Binary API  
@@ -165,14 +173,14 @@ number followed by sequence of string  literals enclosed in '=' and '='.
   
 ## Compiler Compiler System elements and rules      
 [(Back to top)](#table-of-contents)  
-The compiler compiler source grammar definition language elements such as '(' and ')'  
+The Compiler Compiler Source Grammar Definition Language elements such as '(' and ')'  
 are grammar terminals defined as a string literal with enclosed single quotes.  
   
 The Compiler Compiler Source Grammar Definition Language consists of a grammar "name"  
 section followed by a sequence of rules where the first rule is also a grammar axiom.  
 As used  herein, the grammar name section consists of a single identifier that defines a name of grammar.  
   
-**The compiler compiler source grammar definition language element:**    
+**The Compiler Compiler Source Grammar Definition Language element:**    
 { rule }  
 *is a BNF extension called iteration, meaning that enclosed by { and } 
 non-terminal may occur zero or any  other number of times.*  
@@ -182,24 +190,24 @@ Note, that, e.g., rule
          (iterationExample ::= element iterationExample )  
          (iterationExample ::= )  
   
-**The compiler compiler source grammar definition language rule:**    
+**The Compiler Compiler Source Grammar Definition Language element:**     
  (rule ::= '(' nterm '::=' right ')'  
  )  
 *defines rule as a terminal '('  
 followed by non-terminal nterm, followed by terminal '::=',  
 followed by non-terminal right, followed by terminal ')'.*  
   
-**The compiler compiler source grammar definition language rule:**  
+**The Compiler Compiler Source Grammar Definition Language element:**    
  (nterm ::= identifier  
  )  
 *defines non-terminal nterm as identifier.*  
   
-**The compiler compiler source grammar definition language rule:**    
+**The Compiler Compiler Source Grammar Definition Language element:**      
  (right ::= { element }  
  )  
 *defines non-terminal right as an iteration of element non-terminals.*  
   
-**The compiler compiler source grammar definition language rule:**    
+**The Compiler Compiler Source Grammar Definition Language element:**      
  (element ::= identAlt | alternative | identMiss | iteration | action    
  )    
 *defines non-terminal element as an alternative of non-terminals on the right side of  
@@ -214,7 +222,7 @@ Note, that, e.g., rule
       (alternativeExample ::= C )  
       (alternativeExample ::= Z )
   
-**The compiler compiler source grammar definition language rule:**    
+ **The Compiler Compiler Source Grammar Definition Language element:**  
  (action ::= integerToken '=' { stringToken } '='  
  )  
 *defines non-terminal action as an integerToken followed by terminal '=',  
@@ -224,22 +232,22 @@ reserved key words similar to identifier. integerToken defines token that holds
 integer value. stringToken defines token that holds string literal value as an  
 arbitrary sequence of any characters enclosed with double quotes, i.e., ".*  
   
-**The compiler compiler source grammar definition language rule:**    
+**The Compiler Compiler Source Grammar Definition Language element:**      
  (actions ::= '=' { action } '='  
  )  
 *defines non-terminal actions as a iteration of action enclosed with '='.*    
   
-**The compiler compiler source grammar definition language rule:**    
+**The Compiler Compiler Source Grammar Definition Language element:**      
  (identAlt ::= ntermtermact { Altpart }  
  )  
 *defines non-terminal identAlt as a ntermtermact followed by iteration of Altpart non-terminals.*  
   
-**The compiler compiler source grammar definition language rule:**    
+**The Compiler Compiler Source Grammar Definition Language element:**      
  (Altpart ::= '|' ntermtermact  
  )  
 *defines non-terminal Altpart as a terminal '|' followed by non-terminal ntermtermact.*  
   
-**The compiler compiler source grammar definition language rule:**    
+**The Compiler Compiler Source Grammar Definition Language element:**    
  (ntermtermact ::= ntermterm [ actions ]  
  )  
 *defines non-terminal ntermtermact as a non-terminal ntermterm followed by [ actions ] meaning that  
@@ -252,50 +260,50 @@ Note, that, e.g., rule
       (Welement::= W )  
       (Welement::= )  
   
-**The compiler compiler source grammar definition language rule:**    
+**The Compiler Compiler Source Grammar Definition Language element:**      
  (ntermterm ::= nterm | termToken  
  )  
 *defines non-terminal ntermterm as an alternative of nterm of termToken. nterm is defined above.  
 termToken is another compiler compiler source grammar definition language reserved key word that defines    
 terminal token specification as a string literal enclosed with single quotes.*  
   
-**The compiler compiler source grammar definition language rule:**    
+**The Compiler Compiler Source Grammar Definition Language element:**      
  (alternative ::= '(' identAlt ')'  
  )  
 *defines non-terminal alternative as an identAlt enclosed with terminals '(' and ')'.*  
   
-**The compiler compiler source grammar definition language rule:**    
+**The Compiler Compiler Source Grammar Definition Language element:**      
  (identMiss ::= '[' identAlt ']'  
  )  
 *defines non-terminal identMiss as an identAlt enclosed with terminals '[' and ']'.*   
   
-**The compiler compiler source grammar definition language rule:**      
+**The Compiler Compiler Source Grammar Definition Language element:**        
  (iteration ::= '{' iterItemact iterItems '}'  
  )   
 *defines non-terminal iteration as an iterItemact followed by non-terminal iterItems enclosed with  
 terminals '{' and '}'.*  
   
-**The compiler compiler source grammar definition language rule:**      
+**The Compiler Compiler Source Grammar Definition Language element:**        
  (iterItems ::= { altIterItem }  
  )  
 *defines non-terminal iterItems as an iteration of altIterItem non-terminals.*    
   
-**The compiler compiler source grammar definition language rule:**     
+**The Compiler Compiler Source Grammar Definition Language element:**       
  (altIterItem ::= '|' iterItemact  
  )  
 *defines non-terminal altIterItem as terminal '|' followed by non-terminal iterItemact.*  
   
-**The compiler compiler source grammar definition language rule:**      
+**The Compiler Compiler Source Grammar Definition Language element:**       
  (iterItemact ::= iterItem [ actions ]  
  )  
 *defines non-terminal iterItemact as non-terminal iterItem followed by [ actions ].*   
   
-**The compiler compiler source grammar definition language rule:**    
+**The Compiler Compiler Source Grammar Definition Language element:**      
  (iterItem ::= nterm | maybeNterm  
  )  
 *defines non-terminal iterItem as an alternative of non-terminals nterm and maybeNterm.*    
   
-**The compiler compiler source grammar definition language rule:**    
+**The Compiler Compiler Source Grammar Definition Language element:**     
  (maybeNterm ::= '<' nterm '>'  
  )  
 *defines non-terminal maybeNterm as non-terminal nterm enclosed between terminals '<' and '>'.*  
