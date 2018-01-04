@@ -64,7 +64,7 @@ Being a tool, it is about bettering the lives for software developers.
 
 The last stage in the diagram, **Stage 205**, results in  
 a Compiler Compiler System executable program. This stage is generated from **Stage 201**,  
-when inputed Compiler Compiler Source Grammar Definition Language text, which defines itself   
+when inputed CC source grammar definition language text, which defines itself   
 (regarded as meta grammar). Stage 201 performs **Phase 2.1a**, generating **Stage 202**,  
 the Compiler Compiler Runtime API. The Compiler Compiler executable program from Stage 205,  
 has an option to de-compile the, meta grammar generated, Compiler Compiler Runtime API into  
