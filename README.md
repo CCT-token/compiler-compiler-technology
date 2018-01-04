@@ -1,4 +1,4 @@
-## Software Developers -DApp- Community, using Compiler Compiler Technology  
+## Free Proprietary Software Community
 
 # Table of Contents
 ###### Part I - Technical
