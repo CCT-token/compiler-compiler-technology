@@ -98,15 +98,15 @@ include/SyntaxControlledRuntime.h and src/SyntaxControlledRuntime.cc*
 *The C++ CCS Syntax-Controlled Binary API is defined in these files:  
 include/SyntaxControlledBinary.h and src/SyntaxControlledBinary.cc*  
   
-C++ CCS and C CCS both have two implementations of the Parsing Model: Syntax-Controlled Runtime and Binary.   
-The Syntax-Controlled Runtime is used by parser performing parsing operations using the corresponding API. If the parser   
-is successful at analyzing the source program, the Syntax-Controlled Runtime can be (formally) converted to Syntax-Controlled  
-Binary. Any additional semantics processing can be done on Syntax-Controlled Binary using the  
-corresponding API. Having a target language description on SGDL, the corresponding parser and additional code are  
-generated, when the executable program for the target compiler is built, that compiler program is capable of compiling  
-programs on the specified language into Syntax-Controlled Runtime with a subsequent transformation into Syntax-Controlled  
-Binary; also that compiler can de-compile the provided Syntax-Controlled Binary file into the original source  
-code in accordance with the target language grammar. Ones again, all described operations are completely automated.    
+C++ CCS and C CCS both have two implementations of the Parsing Model: Syntax-Controlled Runtime and Binary.  
+The Syntax-Controlled Runtime is used by parser performing parsing operations using the corresponding API.  
+If the parser is successful at analyzing the source program, the Syntax-Controlled Runtime can be (formally)  
+converted to Syntax-Controlled Binary. Any additional semantics processing can be done on Syntax-Controlled Binary  
+using the corresponding API. Having a target language description on SGDL, the corresponding parser and additional  
+code are generated, when the executable program for the target compiler is built, that compiler program is capable  
+of compiling programs on the specified language into Syntax-Controlled Runtime with a subsequent transformation into  
+Syntax-Controlled Binary; also that compiler can de-compile the provided Syntax-Controlled Binary file into the original  
+source code in accordance with the target language grammar. Ones again, all described operations are completely automated.  
    
 ## Compiler Compiler Technology Terms  
 [(Back to top)](#table-of-contents)  
