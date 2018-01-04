@@ -67,17 +67,16 @@ Being a tool, it is about bettering the lives for software developers.
 ![alt text](http://compilercompilertechnology.com/wp-content/uploads/2017/12/Capture2.png)
 
 The diagram shows the present invention, The Compiler Compiler System, and its phases for building itself.
-The Compiler Compiler executable program, 205, takes Compiler Compiler Source Grammar Definition Language **201**, 
-which defines itself (regarded as meta grammar). 201 performs **Phase 2.1a**, generating **202**, 
-the Compiler Compiler System Syntax-Controlled Runtime. The Compiler Compiler executable program from 205, 
-has an option to de-compile the, meta grammar generated, Compiler Compiler Runtime into a text file (not shown), 
-which contains the meta grammar executing phase, shown in **Phase 2.1b**.      
+The Compiler Compiler executable program, **205**, takes Compiler Compiler Source Grammar Definition Language **201**, 
+which defines itself (regarded as meta grammar). **Phase 2.1a**, takes **201** and generates **202**, 
+the Compiler Compiler System Syntax-Controlled Runtime. The Compiler Compiler executable program, **205**, 
+has an option to de-compile the meta grammar source text from the Compiler Compiler Runtime, shown as **Phase 2.1b**.      
 This newly de-compiled meta grammar as a text, is identical to the meta grammar from  
-201 except for some differences related to supported indentation rules.    
-  
+**201** except for some differences related to supported indentation rules.    
+ 
 The Compiler Compiler executable program for the given meta grammar performs **Phase 2.2a**,  
-generating the Compiler Compiler Syntax-Controlled Binary API, **203** for the corresponding  
-Compiler Compiler Syntax-Controlled Runtime API. Phase 2.2a is implemented as a formal procedure that converts  
+generating the Compiler Compiler Syntax-Controlled Binary, **203**, for the corresponding  
+Compiler Compiler Syntax-Controlled Runtime. Phase 2.2a is implemented as a formal procedure that converts  
 CCS Syntax-Controlled Runtime into CCS Syntax-Controlled Binary. The Compiler Compiler executable program    
 has an option to de-compile the meta grammar, generated from the CCS Syntax-Controlled Binary, into a   
 text file (not shown) containing the meta grammar executing phase, **Phase 2.2c**. This newly  
@@ -87,7 +86,7 @@ differences related to supported indentation rules.
 Having the Compiler Compiler Syntax-Controlled Binary executing phase 2.2b, the Compiler Compiler  
 executable program has an option to re-create a Compiler Compiler Syntax-Controlled Runtime that  
 is identical to the original Compiler Compiler Runtime from 202. The Compiler Compiler  
-executable program performs **Phase 2.3** creating Compiler compiler generated code,  
+executable program performs **Phase 2.3**, creating Compiler Compiler generated code,  
 **204** corresponding to the meta grammar from 201.   
   
  ## Significance of CCS Syntax-Controlled Runtime API and CCS Syntax-Controlled Binary API  
