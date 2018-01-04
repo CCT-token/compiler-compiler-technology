@@ -312,10 +312,11 @@ Note, that, e.g., the rule
       (elem ::= A | B | X | Z )  
   
 ## Download  
-  
+//zip
 
 ## Installation  
 Download Instructions  
+//clean up instr.
 Download Video  
   
 ## License    
@@ -323,7 +324,7 @@ Download Video
   
    
 ## Patent  
-  
+  //pdf link
   
 [(Back to top)](#table-of-contents)  
   
