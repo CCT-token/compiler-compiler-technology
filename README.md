@@ -321,7 +321,7 @@ Download Video
   
 ## License    
 [(Back to top)](#table-of-contents)  
-![alt text](http://compilercompilertechnology.com/wp-content/uploads/2018/01/CCTDevelopmentAndInternalUseLicenseFinal.pdf)  
+<a href="http://compilercompilertechnology.com/wp-content/uploads/2018/01/CCTDevelopmentAndInternalUseLicenseFinal.pdf</a>  
   
    
 ## Patent  
