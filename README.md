@@ -66,13 +66,12 @@ Being a tool, it is about bettering the lives for software developers.
 [(Back to top)](#table-of-contents)  
 ![alt text](http://compilercompilertechnology.com/wp-content/uploads/2017/12/Capture2.png)
 
-The last label in the diagram, **205**, results in  
-a Compiler Compiler System executable program. This label is generated from **201**,  
-when inputed CCS Source Grammar Definition Language text, which defines itself   
-(regarded as meta grammar). 201 performs **Phase 2.1a**, generating **202**,  
-the Compiler Compiler System Syntax-Controlled Runtime API. The Compiler Compiler executable program from 205,  
-has an option to de-compile the, meta grammar generated, Compiler Compiler Runtime API into  
-a text file (not shown), which contains the meta grammar executing phase, shown in Phase **2.1b**.      
+The diagram shows the present invention, The Compiler Compiler System, and its phases for building itself.
+The Compiler Compiler executable program, 205, takes Compiler Compiler Source Grammar Definition Language **201**, 
+which defines itself (regarded as meta grammar). 201 performs **Phase 2.1a**, generating **202**, 
+the Compiler Compiler System Syntax-Controlled Runtime. The Compiler Compiler executable program from 205, 
+has an option to de-compile the, meta grammar generated, Compiler Compiler Runtime into a text file (not shown), 
+which contains the meta grammar executing phase, shown in **Phase 2.1b**.      
 This newly de-compiled meta grammar as a text, is identical to the meta grammar from  
 201 except for some differences related to supported indentation rules.    
   
