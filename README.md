@@ -312,19 +312,19 @@ Note, that, e.g., the rule
       (elem ::= A | B | X | Z )  
   
 ## Download  
-[(Back to top)](#table-of-contents)  
+  
 
-## Installation    
-[(Back to top)](#table-of-contents)  
+## Installation  
 Download Instructions  
 Download Video  
   
 ## License    
-[(Back to top)](#table-of-contents)  
 [License ](http://compilercompilertechnology.com/wp-content/uploads/2018/01/CCTDevelopmentAndInternalUseLicenseFinal.pdf)
   
    
 ## Patent  
+  
+  
 [(Back to top)](#table-of-contents)  
   
   
