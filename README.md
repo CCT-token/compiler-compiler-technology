@@ -100,7 +100,7 @@ include/SyntaxControlledBinary.h and src/SyntaxControlledBinary.cc*
   
 C++ CCS and C CCS both have two implementations of the Parsing Model: Syntax-Controlled Runtime and Binary.  
 The Syntax-Controlled Runtime is used by parser performing parsing operations using the corresponding API.  
-If the parser is successful at analyzing the source program, the Syntax-Controlled Runtime can be (formally)  
+If the parser is successful at analyzing the source program, the Syntax-Controlled Runtime can be (formally)    
 converted to Syntax-Controlled Binary. Any additional semantics processing can be done on Syntax-Controlled Binary  
 using the corresponding API. Having a target language description on SGDL, the corresponding parser and additional  
 code are generated, when the executable program for the target compiler is built, that compiler program is capable  
