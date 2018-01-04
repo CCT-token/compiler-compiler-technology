@@ -66,37 +66,46 @@ Being a tool, it is about bettering the lives for software developers.
 [(Back to top)](#table-of-contents)  
 ![alt text](http://compilercompilertechnology.com/wp-content/uploads/2017/12/Capture2.png)
 
-The last stage in the diagram, **Stage 205**, results in  
-a Compiler Compiler System executable program. This stage is generated from **Stage 201**,  
+The last label in the diagram, **205**, results in  
+a Compiler Compiler System executable program. This label is generated from **201**,  
 when inputed CCS Source Grammar Definition Language text, which defines itself   
-(regarded as meta grammar). Stage 201 performs **Phase 2.1a**, generating **Stage 202**,  
-the Compiler Compiler System Syntax-Controlled Runtime API. The Compiler Compiler executable program from Stage 205,  
+(regarded as meta grammar). 201 performs **Phase 2.1a**, generating **202**,  
+the Compiler Compiler System Syntax-Controlled Runtime API. The Compiler Compiler executable program from 205,  
 has an option to de-compile the, meta grammar generated, Compiler Compiler Runtime API into  
 a text file (not shown), which contains the meta grammar executing phase, shown in Phase **2.1b**.      
 This newly de-compiled meta grammar as a text, is identical to the meta grammar from  
-Stage 201 except for some differences related to supported indentation rules.    
+201 except for some differences related to supported indentation rules.    
   
 The Compiler Compiler executable program for the given meta grammar performs **Phase 2.2a**,  
-generating the Compiler Compiler Syntax-Controlled Binary API, **Stage 203** for the corresponding  
+generating the Compiler Compiler Syntax-Controlled Binary API, **203** for the corresponding  
 Compiler Compiler Syntax-Controlled Runtime API. Phase 2.2a is implemented as a formal procedure that converts  
 CCS Syntax-Controlled Runtime into CCS Syntax-Controlled Binary. The Compiler Compiler executable program    
 has an option to de-compile the meta grammar, generated from the CCS Syntax-Controlled Binary, into a   
 text file (not shown) containing the meta grammar executing phase, **Phase 2.2c**. This newly  
-de-compiled meta grammar, as a text, is identical to meta grammar from Stage 201 except for some  
+de-compiled meta grammar, as a text, is identical to meta grammar from 201 except for some  
 differences related to supported indentation rules.  
   
 Having the Compiler Compiler Syntax-Controlled Binary executing phase 2.2b, the Compiler Compiler  
 executable program has an option to re-create a Compiler Compiler Syntax-Controlled Runtime that  
-is identical to the original Compiler Compiler Runtime from Stage 202. The Compiler Compiler  
+is identical to the original Compiler Compiler Runtime from 202. The Compiler Compiler  
 executable program performs **Phase 2.3** creating Compiler compiler generated code,  
-**Stage 204** corresponding to the meta grammar from Stage 201.   
+**204** corresponding to the meta grammar from 201.   
   
- ## Significance of CCS Syntax-Controlled Runtime API and CCS Syntax-Controlled Binary API
+ ## Significance of CCS Syntax-Controlled Runtime API and CCS Syntax-Controlled Binary API  
+[(Back to top)](#table-of-contents)  
 *The C++ CCS Syntax-Controlled Runtime API is defined in these files:  
-include/SyntaxControlledRuntime.h and src/SyntaxControlledRuntime.cc*  
-  
+include/SyntaxControlledRuntime.h and src/SyntaxControlledRuntime.cc*    
 *The C++ CCS Syntax-Controlled Binary API is defined in these files:  
 include/SyntaxControlledBinary.h and src/SyntaxControlledBinary.cc*  
+C++ CCS and C CCS both have two implementations of the Parsing Model: Syntax-Controlled Runtime and Binary.  
+The Syntax-Controlled Runtime is used by parser performing parsing operations using the corresponding API. If parser  
+is successful analyzing source program, the Syntax-Controlled Runtime can be (formally) converted to SyntaxControlled
+Binary. Any additional semantics processing can be done on Syntax-Controlled Binary using
+corresponding API. Having target language description on SGDL, the corresponding parser and additional code are
+generated, when executable program for target compiler is built, that compiler program is capable of compiling
+programs on specified language into Syntax-Controlled Runtime with sunsequent transformation into SyntaxControlled
+Binary; also that compiler can de-compile provided Syntax-Controlled Binary file into original source
+code in accordance with language grammar. Ones again, all described operations are completely automated.
   
 ## Compiler Compiler Technology Terms  
 [(Back to top)](#table-of-contents)  
