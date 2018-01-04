@@ -1,7 +1,7 @@
 ## Software Developers -DApp- Community, using Compiler Compiler Technology  
 
 # Table of Contents
-###### Part I  
+###### Part I - Technical
 * [CCT Information](#cct-information)
    - [Compiler Compiler System (CCS)](#compiler-compiler-system)
    - [Figure of a Traditional Compiler Compiler](#figure-of-a-traditional-compiler-compiler)
@@ -12,10 +12,10 @@
    - [Download](#download)
    - [License](#license)
    - [Patent](#patent)
-###### Part II
+###### Part II - Non-Technical
  * [CCT Integration with Community](#cct-integration-with-community)  
     - [Purpose](#purpose)
-###### Part III
+###### Part III - Non-Technical
  * [Comparison Analysis](#comparison-analysis)
    - [Artificial Intelligence](#artificial-intelligence)
    - [Internet of Things](#internet-of-things)
