@@ -362,7 +362,7 @@ Download Video
   
 # Comparison Analysis
 [(Back to top)](#table-of-contents)
-###### Technology is growing vastly with promising advancements however we see through AI, IoT, and various other technologies, we face bottlenecks and setbacks that help us further move forward into a completely scalable, interoperable technological society. ######
+### Technology is growing vastly with promising advancements however we see through AI, IoT, and various other technologies, we face bottlenecks and setbacks that help us further move forward into a completely scalable, interoperable technological society. ###
   
 ##### Let's take AI specifically as an example; "Experts estimate that AI market will increase from the $200 billion it is valued today to $3.1   trillion by 2025, but serious roadblocks remain." Today, AI functionality is expensive, time-consuming, and hard to use and is among one of many technologies with similar experiences. #####  
   
