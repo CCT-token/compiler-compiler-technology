@@ -16,6 +16,7 @@
 ###### Part II - Non-Technical
  * [Free Proprietary Software Bootstrapping Based on CCT](#free-proprietary-software-bootstrapping-based-on-cct)  
     - [Purpose](#purpose)
+ * [Integration](#integration)
 ###### Part III - Non-Technical
  * [Comparison Analysis](#comparison-analysis)
    - [Artificial Intelligence](#artificial-intelligence)
@@ -359,6 +360,11 @@ Download Video
 ## Purpose
 [(Back to top)](#table-of-contents)
      
+## Integration
+[(Back to top)](#table-of-contents)
+1) light router
+2) compiler compilers system repository
+3) integration based on 1 and 2
   
 # Comparison Analysis
 [(Back to top)](#table-of-contents)
