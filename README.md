@@ -21,6 +21,7 @@
  * [Comparison Analysis](#comparison-analysis)
    - [Artificial Intelligence](#artificial-intelligence)
    - [Internet of Things](#internet-of-things)
+   - [Content Management/ Digitilization](#content-management)
    - [Platform Platform](#platform-platform)
    - [Blockchain](#blockchain)
    - [Interoperability](#interoperability)
@@ -379,7 +380,10 @@ Download Video
   
 ## Internet of Things
 [(Back to top)](#table-of-contents)
-  
+ 
+## Content Management
+[(Back to top)](#table-of-contents)
+
 ## Platform Platform
 [(Back to top)](#table-of-contents)
   
