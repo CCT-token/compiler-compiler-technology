@@ -350,12 +350,11 @@ Download Video
    
 ## Patent  
 [Patent](http://compilercompilertechnology.com/wp-content/uploads/2017/03/US-08464232.pdf)  
- 
----   
+    
 [(Back to top)](#table-of-contents)  
 ---  
   
-  
+---  
 # Free Proprietary Software Bootstrapping Based on CCT
   
 ## Purpose
@@ -367,6 +366,7 @@ Download Video
 2) compiler compilers system repository
 3) integration based on 1 and 2
   
+---  
 # Comparison Analysis
 [(Back to top)](#table-of-contents)
 ### Technology is growing vastly with promising advancements however we see through AI, IoT, and various other technologies, we face bottlenecks and setbacks that help us further move forward into a completely scalable, interoperable technological society. ###
