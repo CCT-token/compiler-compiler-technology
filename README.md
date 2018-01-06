@@ -369,7 +369,7 @@ Download Video
   
 ---  
 # Comparison Analysis
-[(Back to top)](#table-of-contents)
+  
 ### Technology is growing vastly with promising advancements however we see through AI, IoT, and various other technologies, we face bottlenecks and setbacks that help us further move forward into a completely scalable, interoperable technological society. ###
   
 ### Let's take AI specifically as an example; "Experts estimate that AI market will increase from the $200 billion it is valued today to $3.1   trillion by 2025, but serious roadblocks remain." Today, AI functionality is expensive, time-consuming, and hard to use and is among one of many technologies with similar experiences. ###
@@ -377,35 +377,29 @@ Download Video
 ### In the following section, we will underly how Compiler Compiler Technology will eradicate these problems completely, solving problems with standardizaton and interoperability, creating a completely scalable technological world in all areas. Solutions to these problems enable the creation of trillions of $US in value but also help us further the advancements of mankind. ###
   
 ## Artificial Intelligence
-[(Back to top)](#table-of-contents)
   
 ## Internet of Things
-[(Back to top)](#table-of-contents)
  
 ## Content Management/ Digitization
-[(Back to top)](#table-of-contents)
 
 ## Platform Platform
-[(Back to top)](#table-of-contents)
   
 ## Blockchain
-[(Back to top)](#table-of-contents)
   
 ## Interoperability
-[(Back to top)](#table-of-contents)
   
 ## Standardization
-[(Back to top)](#table-of-contents)
   
 ## Scalability
-[(Back to top)](#table-of-contents)
   
 ## Security Based On Obfuscation
-[(Back to top)](#table-of-contents)
   
 ## Business Model
-[(Back to top)](#table-of-contents)
+   
+[(Back to top)](#table-of-contents)  
+---  
   
+---   
 
 
 
