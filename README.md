@@ -358,14 +358,13 @@ Download Video
 # Free Proprietary Software Bootstrapping Based on CCT
   
 ## Purpose
-[(Back to top)](#table-of-contents)
      
-## Integration
-[(Back to top)](#table-of-contents)
+## Integration  
 1) light router
 2) compiler compilers system repository
 3) integration based on 1 and 2
   
+[(Back to top)](#table-of-contents)  
 ---  
 # Comparison Analysis
 [(Back to top)](#table-of-contents)
