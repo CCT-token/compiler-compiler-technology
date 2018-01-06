@@ -16,7 +16,7 @@
 ###### Part II - Non-Technical
  * [Free Proprietary Software Bootstrapping Based on CCT](#free-proprietary-software-bootstrapping-based-on-cct)  
     - [Purpose](#purpose)
- * [Integration](#integration)
+    - [Integration](#integration)
 ###### Part III - Non-Technical
  * [Comparison Analysis](#comparison-analysis)
    - [Artificial Intelligence](#artificial-intelligence)
