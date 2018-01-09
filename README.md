@@ -360,10 +360,22 @@ Download Video
 ## Purpose
      
 ## Integration  
-1) light router
-2) compiler compilers system repository
-3) integration based on 1 and 2
+### 1) CCS Repository  
+CCS repository acts as NOSQL database management system. One component of CCS repository, a CCS meta repository, acts as a registry for any language that has CCS SGDL specification. Another component of CCS repository, a CCS binary repository, acts as a storage where any CCS binary for any registered CCS SGDL specification can be maintained: saved, updated, deleted, retrieved. 
+CCS repository can be implemented as a service on a cloud, or physical instance on a given host. Also many instances of CCS binary repository can be maintained under the control of CCS meta repository. 
+CCS is capable to provide scalability and interoperability solutions based on CCS repository and CCS light router that supports only one message type having CCS binary for given SGDL specification and CCS repository ID.  
+### 2) CCS Light Router  
+A well known industry solution for distributed applications integrating them is based on a message bus. The traditional idea of integrating two applications with different end point types, is the ability of having a router that supports both endpoint types and provides end point transformations from one point to the other. This approach in general, makes the router heavy with multiple endpoints and applications. In case of the CCS, CCS Binary is a final representation of data processing chain and in this case, light router can be implemented with a single endpoint type that is a CCS Binary endpoint.  
+![alt text](http://compilercompilertechnology.com/wp-content/uploads/2018/01/Screen-Shot-2018-01-09-at-2.13.51-PM.png)  
   
+In the diagram above, Device 1 talks to the application by means of the endpoint, e1, and Device 2 talks to the application by means of the endpoint, e2. Device 1 endpoint e1, is understood by the application’s endpoint e1. The maintenance burden at the application level to support multiple versions of the introduced endpoints is a heavy task in terms of time and cost. For large applications, this scenario creates a well known issue called fragmentation. The idea of CSS light router combined with CCS repository is capable to provide a better solution for integration. The solution is presented in the figure below.  
+  
+![alt text](http://compilercompilertechnology.com/wp-content/uploads/2018/01/Screen-Shot-2018-01-09-at-2.13.40-PM.png)  
+  
+In the proposed diagram, Device 1 and Device 2 are connected with an external world by means of CCS Binary1 (B1) and CCS Binary2 (B2). Traditionally, any endpoint defines a collection of messages. It is not a problem to create, for any given collection of messages, a corresponding CCS SGDL specification that would be an equivalent representation of that collection of messages. The Light Router accepts only one type of endpoint, processing CCS Binary, interacting either with Application or CCS repository directly. In the diagram above, Light Router talks to the Application and that Application submits the results to the CCS Repository. Keep in mind, the proposed solution allows application development based on CCS Binary API only. This way, dependencies with Device 1 and Device 2, with custom manufacturers of software, is eliminated.  
+  
+    
+   
 [(Back to top)](#table-of-contents)  
 ---  
   
