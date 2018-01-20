@@ -1,4 +1,5 @@
-## Free Proprietary Software Community
+## Compiler Compiler Technology, 
+## a Free Proprietary Software Sub-Community
 
 # Table of Contents
 ###### Part I - Technical
