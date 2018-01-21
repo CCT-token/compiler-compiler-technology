@@ -33,8 +33,10 @@ The Free Proprietary Software Community serves software developers and engineers
    - [Standardization](#standardization)
    - [Scalability](#scalability)
    - [Security based on Obfuscation](#security-based-on-obfuscation)
-   - [Business Model](#business-model)
 
+---  
+  
+---  
 # CCT Information  
 
 ## Compiler Compiler System
@@ -432,8 +434,7 @@ CCS is capable to provide scalability solutions based on CCS repository and CCS 
 It is known that grammar recognition tasks are NP-complete. In simple words, NP-complete means that the task would run almost forever. Having CCS syntax-controlled binary, the task of the grammar recognition is NP-complete. Having CCS syntax-controlled runtime, obfuscated one way or another, with subsequent formal conversion into CCS syntax-controlled binary would make grammar recognition tasks even harder. Implementing obfuscation/de-obfuscation algorithms for CCS syntax-controlled runtime and binary is an advanced, patent protected way of transmitting data with built-in security features and content management. Keep in mind that the patent describes any binary file transformation into CCS syntax-controlled runtime including video/audio streams. Having all forms of data transformed into CCS syntax-controlled runtime with a well defined logical syntax structure generic obfuscation/de-obfuscation algorithms can be implemented to provide security solutions. 
 
 A use case is described in the white paper.  
-  
-## Business Model
+
 
 
 [(Back to top)](#table-of-contents)  
