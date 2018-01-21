@@ -44,11 +44,11 @@ Regarding FPSC bootstrapping, it entails the idea of expanding the community in 
 
 
 ## Integration  
-### 1) CCS Repository  
+#### 1) CCS Repository  
 CCS repository acts as NOSQL database management system. One component of CCS repository, a CCS meta repository, acts as a registry for any language that has CCS SGDL specification. Another component of CCS repository, a CCS binary repository, acts as a storage where any CCS binary for any registered CCS SGDL specification can be maintained: saved, updated, deleted, retrieved. 
 CCS repository can be implemented as a service on a cloud, or physical instance on a given host. Also many instances of CCS binary repository can be maintained under the control of CCS meta repository. 
 CCS is capable to provide scalability and interoperability solutions based on CCS repository and CCS light router that supports only one message type having CCS binary for given SGDL specification and CCS repository ID.  
-### 2) CCS Light Router  
+#### 2) CCS Light Router  
 A well known industry solution for distributed applications integrating them is based on a message bus. The traditional idea of integrating two applications with different end point types, is the ability of having a router that supports both endpoint types and provides end point transformations from one point to the other. This approach in general, makes the router heavy with multiple endpoints and applications. In case of the CCS, CCS Binary is a final representation of data processing chain and in this case, light router can be implemented with a single endpoint type that is a CCS Binary endpoint.  
 ![alt text](http://compilercompilertechnology.com/wp-content/uploads/2018/01/Screen-Shot-2018-01-09-at-2.13.51-PM.png)  
   
@@ -61,6 +61,7 @@ In the proposed diagram, Device 1 and Device 2 are connected with an external wo
     
    
 [(Back to top)](#table-of-contents)  
+
 ---  
   
 ---  
