@@ -355,8 +355,7 @@ Note, that, e.g., the rule
 [Download .zip file](https://github.com/CCT-token/compiler-compiler-technology/blob/master/ccs_zip.zip)
 
 ## Installation  
-//clean up installment-> Download Instructions  
-Download Video  
+Instructions included in .zip file.
   
 ## License    
 [License](http://compilercompilertechnology.com/wp-content/uploads/2018/01/FreeProprietarySoftwareLicense.pdf)
