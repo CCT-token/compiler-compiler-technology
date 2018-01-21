@@ -40,8 +40,7 @@ The Free Proprietary Software Community serves software developers and engineers
 # Free Proprietary Software Bootstrapping Based on CCT
   
 ## Purpose  
-Regarding FPSC bootstrapping, it entails the idea of expanding the community in various ways. One direction is based on Compiler Compiler Technology. The tasks to be completed in that area are depicted in the form of tiers: tier I., tier II., and tier III (described in the white paper). CCS software products. Another direction is Ethereum capabilities to build smart contracts with dedicated coins. For CCT related development, there is a plan to create a CCT Ethereum token to be used within FPSC to sell/buy built software products paying with the Ethereum CCT token and with other Ethereum tokens introduced within FPSC. There are two important factors that bring together the FPSC: Free Proprietary Software License (FPSL) and the incentives that FPSC members issue to each other for licensing their software products using various Ethereum tokens. It is important to distinguish that FPSC is not a community comprised of only software products derived from CCS products. 
-
+Regarding FPSC bootstrapping, it entails the idea of expanding the community in various ways. One direction is based on Compiler Compiler Technology. The tasks to be completed in that area are depicted in the form of tiers: tier I., tier II., and tier III (described in the white paper) CCS software products. Another direction is Ethereum capabilities to build smart contracts with dedicated coins. For CCT related development, there is a plan to create a CCT Ethereum token to be used within FPSC to sell/buy built software products paying with the Ethereum CCT Token and with other Ethereum tokens introduced within FPSC. **There are two important factors that bring together the FPSC: Free Proprietary Software License (FPSL) and the incentives that FPSC members issue to each other for licensing their software products using various Ethereum tokens. It is important to distinguish that FPSC is not a community comprised of only software products derived from CCS products.**  
 
 ## Integration  
 #### 1) CCS Repository  
@@ -65,13 +64,15 @@ In the proposed diagram, Device 1 and Device 2 are connected with an external wo
 ---  
   
 ---  
+
 # Comparison Analysis
+
+Technology is growing vastly with promising advancements however we see through AI, IoT, and various other technologies, we face bottlenecks and setbacks that help us further move forward into a completely scalable, interoperable technological society. 
   
-### Technology is growing vastly with promising advancements however we see through AI, IoT, and various other technologies, we face bottlenecks and setbacks that help us further move forward into a completely scalable, interoperable technological society. ###
+Let's take AI specifically as an example; "Experts estimate that AI market will increase from the $200 billion it is valued today to $3.1   trillion by 2025, but serious roadblocks remain." Today, AI functionality is expensive, time-consuming, and hard to use and is among one of many technologies with similar experiences. 
   
-### Let's take AI specifically as an example; "Experts estimate that AI market will increase from the $200 billion it is valued today to $3.1   trillion by 2025, but serious roadblocks remain." Today, AI functionality is expensive, time-consuming, and hard to use and is among one of many technologies with similar experiences. ###
   
-### In the following section, we will underly how Compiler Compiler Technology will eradicate these problems completely, solving problems with standardizaton and interoperability, creating a completely scalable technological world in all areas. Solutions to these problems enable the creation of trillions of $US in value but also help us further the advancements of mankind. ###
+In the following section, we will underly how Compiler Compiler Technology will eradicate these problems completely, solving problems with standardizaton and interoperability, creating a completely scalable technological world in all areas. Solutions to these problems enable the creation of trillions of $US in value but also help us further the advancements of mankind. ###
   
 ## Artificial Intelligence  
 The growth and popularity of AI rapidly expanded and has become a significant topic in technology. Despite the growth, AI still exists in a form of some exclusive products promoted to the market by large corporations. During the last two decades, a lot different standards have emerged in AI marketplace. We believe that providing solutions for the existing AI standards, e.g., Ontology, based on CCT would be able to change the AI landscape solving interoperability issues.
@@ -134,7 +135,8 @@ A use case is described in the white paper.
 [(Back to top)](#table-of-contents)  
 ---  
   
----   
+---  
+ 
 # CCT Information  
 
 ## Compiler Compiler System
