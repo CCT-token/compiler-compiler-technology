@@ -1,6 +1,7 @@
 ## Compiler Compiler Technology, 
 ## a Free Proprietary Software Sub-Community  
-The Free Proprietary Software Community serves software developers and engineers.   
+The Free Proprietary Software Community serves software developers and engineers,  
+described in https://github.com/CCT-token/free-proprietary-software-community .  
 The Compiler Compiler System will be used to bootstrap FPSC ideas and essentially  
 will be a sub-community within the FPSC. The CCS is an example of how sub-communities  
 can be formed and how their products can be distributed through tokens or fiat currency.  
@@ -10,7 +11,7 @@ can create their own token. This setup creates a software developer community wh
 developers will be incentivized by sharing their code through tokens (or fiat). Every  
 software created within the FPSC, is considered Free Proprietary Software, which will  
 enable developers to share code for research and development for free but once they  
-start selling for profit, you would have to pay the developer with these tokens or  
+start selling for profit, the developer will be paid with community tokens or  
 pay with fiat money. The next sections describe how FPSC can grow at a large scale  
 by using the Compiler Compiler System.  
   
@@ -27,7 +28,7 @@ by using the Compiler Compiler System.
    - [Download](#download)
    - [License](#license)
    - [Patent](#patent)
-###### Part II - Non-Technical
+###### Part II - Technical
  * [Free Proprietary Software Bootstrapping Based on CCT](#free-proprietary-software-bootstrapping-based-on-cct)  
     - [Purpose](#purpose)
     - [Integration](#integration)
@@ -78,7 +79,7 @@ Being a tool, it is about bettering the lives for software developers.
 
 
 
-## Figure of our Compiler Compiler System
+## Figure of our Compiler Compiler System (Architecture)
 [(Back to top)](#table-of-contents)  
 ![alt text](http://compilercompilertechnology.com/wp-content/uploads/2017/12/Capture2.png)
 
@@ -114,7 +115,7 @@ include/SyntaxControlledRuntime.h and src/SyntaxControlledRuntime.cc*
 *The C++ CCS Syntax-Controlled Binary API is defined in these files:  
 include/SyntaxControlledBinary.h and src/SyntaxControlledBinary.cc*  
   
-C++ CCS and C CCS both have two implementations of the Parsing Model: Syntax-Controlled Runtime and Binary.  
+C++ CCS and C CCS both have two implementations of the CCS Parsing Model: Syntax-Controlled Runtime and Binary.  
 The Syntax-Controlled Runtime is used by parser performing parsing operations using the corresponding API.  
 If the parser is successful at analyzing the source program, the Syntax-Controlled Runtime can be (formally)    
 converted to Syntax-Controlled Binary. Any additional semantics processing can be done on Syntax-Controlled Binary  
@@ -122,7 +123,7 @@ using the corresponding API. Having a target language description on SGDL, the c
 code are generated, when the executable program for the target compiler is built, that compiler program is capable  
 of compiling programs on the specified language into Syntax-Controlled Runtime with a subsequent transformation into  
 Syntax-Controlled Binary; also that compiler can de-compile the provided Syntax-Controlled Binary file into the original  
-source code in accordance with the target language grammar. Ones again, all described operations are completely automated.  
+source code in accordance with the target language grammar. Once again, all described operations are completely automated.  
    
 ## Compiler Compiler Technology Terms  
 [(Back to top)](#table-of-contents)  
@@ -134,8 +135,7 @@ Compiler Compiler System Syntax-Controlled Runtime
 Compiler Compiler System Syntax-Controlled Binary  
 Compiler Compiler Executable Program  
   
-## Meta Grammar Example:  
-## As an example,  
+## Meta Grammar Example:   
 When C++ compiler compiler executable program 205 takes the following meta grammar source file:    
 (meta  
    (grammar ::=  
@@ -186,7 +186,7 @@ When C++ compiler compiler executable program 205 takes the following meta gramm
 )  
   
   
-As a result of phase 2.3 the following C++ source files are generated:  
+As a result of phase 2.3 (from Architecture diagram) the following C++ source files are generated:  
 - metaGenerator.h  
 - metaKeyWordDefinition.h  
 - metaParser.h  
