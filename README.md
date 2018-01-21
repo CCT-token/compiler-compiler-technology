@@ -20,7 +20,7 @@ by using the Compiler Compiler System.
 * [CCT Information](#cct-information)
    - [Compiler Compiler System (CCS)](#compiler-compiler-system)
    - [Figure of a Traditional Compiler Compiler](#figure-of-a-traditional-compiler-compiler)
-   - [Figure of our Compiler Compiler System](#figure-of-our-compiler-compiler-system)
+   - [Figure of our Compiler Compiler System](#figure-of-our-compiler-compiler-system-architecture)
    - [Compiler Compiler System Elements and Rules](#compiler-compiler-system-elements-and-rules)
    - [CCS Syntax-Controlled Runtime API and CCS Syntax-Controlled Binary API](#significance-of-ccs-syntax-controlled-runtime-api-and-ccs-syntax-controlled-binary-api)
    - [Compiler Compiler Technology Terms](#compiler-compiler-technology-terms)
@@ -352,7 +352,7 @@ Note, that, e.g., the rule
       (elem ::= A | B | X | Z )  
   
 ## Download  
-//zip (after edit)
+[Download .zip file](https://github.com/CCT-token/compiler-compiler-technology/blob/master/ccs_zip.zip)
 
 ## Installation  
 //clean up installment-> Download Instructions  
