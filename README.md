@@ -1,6 +1,6 @@
 # Compiler Compiler Technology, 
 # a Free Proprietary Software Sub-Community  
-The Free Proprietary Software Community serves software developers and engineers, described in https://github.com/CCT-token/free-proprietary-software-community. The Compiler Compiler System will be used to bootstrap FPSC ideas and essentially will be a sub-community within the FPSC. The CCS is an example of how sub-communities can be formed and how their products can be distributed through tokens or fiat currency. All related CCS products will be connected with the CCT Token. Any other sub-communities created, either a sub-community that works with IoT solutions or AI solutions etc., can create their own token. This setup creates a software developer community where developers will be incentivized by sharing their code through tokens (or fiat). Every software created within the FPSC, is considered Free Proprietary Software, which will enable developers to share code for research and development for free but once they start selling for profit, the developer will be paid with community tokens or pay with fiat money. The next sections describe how FPSC can grow at a large scale by using the Compiler Compiler System.  
+The Free Proprietary Software Community serves software developers and engineers, described in https://github.com/CCT-token/free-proprietary-software-community. The Compiler Compiler System will be used to bootstrap FPSC ideas and essentially will be a sub-community within the FPSC. The CCS is an example of how sub-communities can be formed and how their products can be distributed through tokens or fiat currency. All related CCS products will be connected with the CCT Token. Any other sub-communities created, either a sub-community that works with IoT solutions or AI solutions etc., can create their own token. Every software created within the FPSC, is considered Free Proprietary Software, which will enable developers to share code for research and development for free but once they start selling for profit, the developer will be paid with community tokens or pay with fiat money. This setup creates a software developer community where developers will be incentivized by sharing their code through tokens (or fiat).  The next sections describe how FPSC can grow at a large scale by using the Compiler Compiler System.  
 
 ---  
   
@@ -74,27 +74,13 @@ Being a tool, it is about bettering the lives for software developers.
 ![alt text](http://compilercompilertechnology.com/wp-content/uploads/2017/12/Capture2.png)
 
 The diagram shows the present invention, The Compiler Compiler System, and its phases for building itself.
-The Compiler Compiler executable program, **205**, takes Compiler Compiler Source Grammar Definition Language **201**, 
-which defines itself (regarded as meta grammar). **Phase 2.1a**, takes **201** and generates **202**, 
-the Compiler Compiler System Syntax-Controlled Runtime. The Compiler Compiler executable program, **205**, 
-has an option to de-compile the meta grammar source text from the Compiler Compiler Runtime, shown as **Phase 2.1b**.      
-This newly de-compiled meta grammar as a text, is identical to the meta grammar from  
+The Compiler Compiler executable program, **205**, takes Compiler Compiler Source Grammar Definition Language **201**, which defines itself (regarded as meta grammar). **Phase 2.1a**, takes **201** and generates **202**, the Compiler Compiler System Syntax-Controlled Runtime. The Compiler Compiler executable program, **205**, has an option to de-compile the meta grammar source text from the Compiler Compiler Runtime, shown as **Phase 2.1b**. This newly de-compiled meta grammar as a text, is identical to the meta grammar from  
 **201** except for some differences related to supported indentation rules.    
  
-The Compiler Compiler executable program for the given meta grammar performs **Phase 2.2a**,  
-generating the Compiler Compiler Syntax-Controlled Binary, **203**, for the corresponding  
-Compiler Compiler Syntax-Controlled Runtime. Phase 2.2a is implemented as a formal procedure that converts  
-CCS Syntax-Controlled Runtime into CCS Syntax-Controlled Binary. The Compiler Compiler executable program    
-has an option to de-compile the meta grammar, generated from the CCS Syntax-Controlled Binary, into a   
-text file (not shown) containing the meta grammar executing phase, **Phase 2.2c**. This newly  
-de-compiled meta grammar, as a text, is identical to meta grammar from 201 except for some  
-differences related to supported indentation rules.  
+The Compiler Compiler executable program for the given meta grammar performs **Phase 2.2a**, generating the Compiler Compiler Syntax-Controlled Binary, **203**, for the corresponding Compiler Compiler Syntax-Controlled Runtime. Phase 2.2a is implemented as a formal procedure that converts CCS Syntax-Controlled Runtime into CCS Syntax-Controlled Binary. The Compiler Compiler executable program    
+has an option to de-compile the meta grammar, generated from the CCS Syntax-Controlled Binary, into a text file (not shown) containing the meta grammar executing phase, **Phase 2.2c**. This newly de-compiled meta grammar, as a text, is identical to meta grammar from 201 except for some differences related to supported indentation rules.  
   
-Having the Compiler Compiler Syntax-Controlled Binary executing phase 2.2b, the Compiler Compiler  
-executable program has an option to re-create a Compiler Compiler Syntax-Controlled Runtime that  
-is identical to the original Compiler Compiler Runtime from 202. The Compiler Compiler  
-executable program performs **Phase 2.3**, creating Compiler Compiler generated code,  
-**204** corresponding to the meta grammar from 201.   
+Having the Compiler Compiler Syntax-Controlled Binary executing phase 2.2b, the Compiler Compiler executable program has an option to re-create a Compiler Compiler Syntax-Controlled Runtime that is identical to the original Compiler Compiler Runtime from 202. The Compiler Compiler executable program performs **Phase 2.3**, creating Compiler Compiler generated code, **204** corresponding to the meta grammar from 201.   
   
  ## Significance of CCS Syntax-Controlled Runtime API and CCS Syntax-Controlled Binary API  
 [(Back to top)](#table-of-contents)  
@@ -360,18 +346,18 @@ Instructions included in .zip file.
 ---  
 # Free Proprietary Software Bootstrapping Based on CCT   
 ## Purpose  
-Regarding FPSC bootstrapping, it entails the idea of expanding the community in various ways. One direction is based on Compiler Compiler Technology. The tasks to be completed in that area are depicted in the form of tiers: tier I., tier II., and tier III (described in the white paper) CCS software products. Another direction is Ethereum capabilities to build smart contracts with dedicated coins. For CCT related development, there is a plan to create a CCT Ethereum token to be used within FPSC to sell/buy built software products paying with the Ethereum CCT Token and with other Ethereum tokens introduced within FPSC. **There are two important factors that bring together the FPSC: Free Proprietary Software License (FPSL) and the incentives that FPSC members issue to each other for licensing their software products using various Ethereum tokens. It is important to distinguish that FPSC is not a community comprised of only software products derived from CCS products.**  
+FPSC bootstrapping entails the idea of expanding the community in various ways. One direction is based on Compiler Compiler Technology. The tasks to be completed in that area are depicted in the form of tiers: tier I., tier II., and tier III CCS software products (described in the white paper). Another direction encompasses Ethereum capabilities to build smart contracts with dedicated coins. For CCT related development, there is a plan to create a CCT Ethereum token to be used within FPSC to sell/buy built software products paying with the Ethereum CCT Token and with other Ethereum tokens introduced within FPSC. **There are two important factors that bring together the FPSC: Free Proprietary Software License (FPSL) and the incentives that FPSC members issue to each other for licensing their software products using various Ethereum tokens. It is important to distinguish that FPSC is not a community comprised of only software products derived from CCS products.**  
 
 ## Integration  
 #### 1) CCS Repository  
-CCS repository acts as NOSQL database management system. One component of CCS repository, a CCS meta repository, acts as a registry for any language that has CCS SGDL specification. Another component of CCS repository, a CCS binary repository, acts as a storage where any CCS binary for any registered CCS SGDL specification can be maintained: saved, updated, deleted, retrieved. 
-CCS repository can be implemented as a service on a cloud, or physical instance on a given host. Also many instances of CCS binary repository can be maintained under the control of CCS meta repository. 
-CCS is capable to provide scalability and interoperability solutions based on CCS repository and CCS light router that supports only one message type having CCS binary for given SGDL specification and CCS repository ID.  
+CCS repository acts as NOSQL database management system. One component of CCS repository, a CCS meta repository, acts as a registry for any language that has CCS SGDL specification. Another component of CCS repository, a CCS binary repository, acts as a storage where any CCS binary for any registered CCS SGDL specification can be maintained: saved, updated, deleted, retrieved.  
+CCS repository can be implemented as a service on a cloud or physical instance on a given host. Also, many instances of CCS binary repositories can be maintained under the control of the CCS meta repository.  
+CCS is capable to provide scalability and interoperability solutions based on the CCS repository and the CCS light router that supports only one message type, obtained from the CCS binary for the given SGDL specification and CCS repository ID.  
 #### 2) CCS Light Router  
-A well known industry solution for distributed applications integrating them is based on a message bus. The traditional idea of integrating two applications with different end point types, is the ability of having a router that supports both endpoint types and provides end point transformations from one point to the other. This approach in general, makes the router heavy with multiple endpoints and applications. In case of the CCS, CCS Binary is a final representation of data processing chain and in this case, light router can be implemented with a single endpoint type that is a CCS Binary endpoint.  
+A well known industry solution for distributed applications and integrating them is based on a message bus. The traditional idea of integrating two applications with different end point types is the ability of having a router that supports both endpoint types and provides end point transformations from one point to the other. This approach in general, makes the router heavy with multiple endpoints and applications. In case of the CCS, CCS Binary is a final representation of data processing chain and in this case, the CCS light router can be implemented with a single endpoint type, which is a CCS Binary endpoint.  
 ![alt text](http://compilercompilertechnology.com/wp-content/uploads/2018/01/Screen-Shot-2018-01-09-at-2.13.51-PM.png)  
   
-In the diagram above, Device 1 talks to the application by means of the endpoint, e1, and Device 2 talks to the application by means of the endpoint, e2. Device 1 endpoint e1, is understood by the application’s endpoint e1. The maintenance burden at the application level to support multiple versions of the introduced endpoints is a heavy task in terms of time and cost. For large applications, this scenario creates a well known issue called fragmentation. The idea of CSS light router combined with CCS repository is capable to provide a better solution for integration. The solution is presented in the figure below.  
+In the diagram above, Device 1 talks to the application by means of the endpoint, e1, and Device 2 talks to the application by means of the endpoint, e2. Device 1 endpoint e1, is understood by the application’s endpoint e1. The maintenance burden at the application level to support multiple versions of the introduced endpoints is a heavy task in terms of time and cost. For large applications, this scenario creates a well known issue called fragmentation. The idea of CSS Light Router combined with CCS Repository is capable to provide a better solution for integration. The solution is presented in the figure below.  
   
 ![alt text](http://compilercompilertechnology.com/wp-content/uploads/2018/01/Screen-Shot-2018-01-09-at-2.13.40-PM.png)  
   
@@ -386,40 +372,40 @@ In the proposed diagram, Device 1 and Device 2 are connected with an external wo
 ---  
 
 # Comparison Analysis
-
+  
 Technology is growing vastly with promising advancements however we see through AI, IoT, and various other technologies, we face bottlenecks and setbacks that help us further move forward into a completely scalable, interoperable technological society. 
   
-Let's take AI specifically as an example; "Experts estimate that AI market will increase from the $200 billion it is valued today to $3.1   trillion by 2025, but serious roadblocks remain." Today, AI functionality is expensive, time-consuming, and hard to use and is among one of many technologies with similar experiences. 
+Let's take AI specifically as an example; "Experts estimate that AI market will increase from the $200 billion it is valued today to $3.1   trillion by 2025, but serious roadblocks remain." Today, AI functionality is expensive, time-consuming, and hard to use and is among one of many technologies with similar experiences.
   
+In the following section, we will underly how Compiler Compiler Technology will eradicate these problems completely, solving problems with standardizaton and interoperability, creating a completely scalable technological world in all areas. Solutions to these problems enable the creation of trillions of $US in value but also help us further the advancements of mankind. 
   
-In the following section, we will underly how Compiler Compiler Technology will eradicate these problems completely, solving problems with standardizaton and interoperability, creating a completely scalable technological world in all areas. Solutions to these problems enable the creation of trillions of $US in value but also help us further the advancements of mankind. ###
-  
+### Solutions: 
 ## Artificial Intelligence  
-The growth and popularity of AI rapidly expanded and has become a significant topic in technology. Despite the growth, AI still exists in a form of some exclusive products promoted to the market by large corporations. During the last two decades, a lot different standards have emerged in AI marketplace. We believe that providing solutions for the existing AI standards, e.g., Ontology, based on CCT would be able to change the AI landscape solving interoperability issues.
-  
 **Major overall solution for AI: Solving interoperability issue.**  
+The growth and popularity of AI rapidly expanded and has become a significant topic in technology. Despite the growth, AI still exists in a form of some exclusive products promoted to the market by large corporations. During the last two decades, a lot of different standards have emerged in AI marketplace, which furthers us from being an interoperable technological world. We believe that providing solutions for the existing AI standards, e.g., Ontology, based on CCT would be able to change the AI landscape solving interoperability issues.  
   
 ## Internet of Things
-For the last decade, IoT has become possible for many reasons, one is the tremendous growth of hardware capabilities. Another one is wireless network capabilities. Another is 5G capabilities including new options to run TV services. As a result, at least a hundred IoT platforms have been created in the last decade. As a result, at the consumer level, we have an issue of lack of interoperability between those platforms and corresponding products. **CCT is capable to deliver solutions for standardization, content management/digitization, scalability, security based on obfuscation and interoperability making it possible to integrate existing IoT platforms.**  
+For the last decade, IoT has become possible for many reasons, one is the tremendous growth of hardware capabilities. Another one is wireless network capabilities. Another is 5G capabilities including new options to run TV services. As a result, at least a hundred IoT platforms have been created in the last decade. As a result, at the consumer level we have an issue of lack of interoperability between those platforms and corresponding products. **CCT is capable to deliver solutions for standardization, content management/digitization, scalability, security based on obfuscation and interoperability making it possible to integrate existing IoT platforms.**  
   
 ## Content Management/ Digitization  
 Content management is a process that takes information in any format and provides an environment for manipulating that data by means of programming. The idea of digitization of any business related information is vital because it is a source for better performance. 
   
-The Compiler Compiler System can be used for binary files processing. In this case, a corresponding binary file format has to be designed in the form of Compiler Compiler Source Grammar Definition Language specification. After that, a custom convertor from binary file format into Compiler Compiler Runtime format is implemented. Having a Compiler Compiler Runtime built for a binary file with a given format allows all other Compiler Compiler phases to work automatically without any extra code development.  
+The Compiler Compiler System can be used for binary file processing. In this case, a corresponding binary file format has to be designed in the form of Compiler Compiler Source Grammar Definition Language specification. After that, a custom convertor from binary file format into Compiler Compiler Runtime format is implemented. Having a Compiler Compiler Runtime built for a binary file with a given format allows all other Compiler Compiler phases to work automatically without any extra code development.  
   
 Traditional text files and/or text specifications on some custom languages including any form of XML, interchange formats, other markup languages, etc. can be transformed by designing the corresponding SGDL specifications, building corresponding front ends and converting those text representations into CCS binary. Keep in mind that CCS Runtime and Binary APIs (completely automatically generated from SGDL) provide a foundation for content management solutions.
 
 ## Platform Platform
+---- add text here
   
 ## Blockchain  
+**Major overall solution for Blockchain platforms: Solving scalability issue.**
 The key components of blockchain platforms are:  
 •	A distributed ledger to keep track of all transactions.  
 •	Proof of Work (PoW) feature implemented as a security solution against malicious intruders and making a blockchain platform not just distributed but decentralized too. Other ideas including Proof of Stake are in discussion in the blockchain community.  
 •	Smart Contracts. Eg., Ethereum has a smart contract language, Solidity.  
 •	Replication of the ledger across all blockchain network nodes.  
 •	Peer to peer network messaging.  
-  
-Peer to peer network messaging and ledger replication creates a condition where scalability is not an option.  
+**Peer to peer network messaging and ledger replication creates a condition where scalability is not an option.**
   
 Compiler Compiler Technology is capable to provide blockchain scalability solutions the following way:  
 •	Introduce a peer to peer messaging layer in a form of SGDL specification.  
@@ -427,26 +413,23 @@ Compiler Compiler Technology is capable to provide blockchain scalability soluti
 •	Instead of PoW, provide blockchain security solutions through obfuscation.   
 •	Combine security solutions based on obfuscation with ledger represented in CCS Repository that is the replicated in all nodes. It is possible to implement other strategies for ledger replication but the main point is to avoid ledger replication in each node, since it is redundant and a blocking factor for scalability.  
 •	Since CCS Repository is scalable and security solutions based on obfuscation can eliminate the necessity of having PoW, the proposed blockchain technology based on CCS is equivalent to the existing blockchain technology.  
-•	Regarding smart contract languages including Solidity, it is possible to implement Solidity compiler and other smart contract language compilers based on CCS. This way, interoperability solutions between different blockchain networks will be granted from day one.  
-The most complicated area that is less researched is building security solutions replacing PoW based on obfuscation. It requires deep research and development but when it is finalized, scalability issues would not be an issue at all.  
+•	Regarding smart contract languages including Solidity, it is possible to implement Solidity compiler and other smart contract language compilers from the CCS, because keep in mind the CCS builds the front-end to any language completely automatically. This way, interoperability solutions between different blockchain networks will be granted from day one. The most complicated area which is less researched is building security solutions, replacing PoW based on obfuscation. This part requires research and development but when it is finalized, scalability issues would not be an issue at all.
   
-**Major overall solution for Blockchain platforms: Solving scalability issue.**
-
 ## Interoperability  
-Industry created universal approach for interoperability between different applications by having interchange format approach. Any interchange format can be defined in form of CCS SGDL specification with subsequent automatic compilation of that CCS SGDL specification into related interchange format front-end, syntax-controlled binary and runtime APIs. Note, that , syntax-controlled binary API can be implemented for any programming language and any software platform including Unix/Linux, Microsoft .NET, Java, GO, etc...  
+Industry created a universal approach for interoperability between different applications by having an interchange format approach. Any interchange format can be defined in the form of CCS SGDL specification with subsequent automatic compilation of that CCS SGDL specification into related interchange format front-end, syntax-controlled binary, and syntax-controlled runtime APIs. Note, that , syntax-controlled binary API can be implemented for any programming language and any software platform including Unix/Linux, Microsoft .NET, Java, GO, etc...  
   
-CCS is capable to provide interoperability solutions based on CCS repository and light router that supports only one message type having CCS binary for given SGDL specification and CCS repository ID. In the Light Router section above, possible solutions for interoperability were discussed based on CCS Light Router, CCS Repository in more details.  
+CCS is capable to provide interoperability solutions based on the CCS repository and CCS light router that supports only one message type by having a CCS binary for a given SGDL specification and CCS repository ID. In the Light Router section above, solutions for interoperability were discussed based on CCS Light Router and CCS Repository in more detail.  
    
 ## Standardization  
-The compiler compiler system provides a solution for automating the standard specification transformation into software products. This approach reduces the expenses for implementing standard specifications in hardware/software products. The C++ Compiler Compiler System generates C++ code for front-end, parser, syntax-controlled runtime API and syntax-controlled binary API. The front-end is an executable program that provides compilation from source into syntax-controlled binary. During this process, parser builds syntax-controlled runtime that is formally converted into syntax-controlled binary. Also, backward operations from syntax-controlled runtime and syntax-controlled binary into the source program are provided. The business logic operations can be defined by means of syntax- controlled binary API. This way for any given standard there is an option to use CCS syntax- controlled binary API instead of creating custom implementations of custom APIs by different software/hardware providers.   
+The Compiler Compiler System provides a solution for automating the creation of standard specification transformations in software products. This approach reduces the expenses for implementing standard specifications in hardware/software products. The C++ Compiler Compiler System generates C++ code for front-end, parser, syntax-controlled runtime API and syntax-controlled binary API. The front-end is an executable program that provides compilation from source into syntax-controlled binary. During this process, parser builds syntax-controlled runtime that is formally converted into syntax-controlled binary. Also, backward operations from syntax-controlled runtime and syntax-controlled binary into the source program are provided. The business logic operations can be defined by means of syntax- controlled binary API. This way for any given standard there is an option to use CCS syntax- controlled binary API instead of creating custom implementations of custom APIs by different software/hardware providers.   
   
 ## Scalability  
-“Scalability is the capability of a system, network, or process to handle a growing amount of work, or its potential to be enlarged to accommodate that growth". The most well known scalability solution is internet itself. Modern cloud solutions with decentralized architecture provide another approach for scalability.  
+“Scalability is the capability of a system, network, or process to handle a growing amount of work, or its potential to be enlarged to accommodate that growth". The most well known scalability solution is the internet itself. Modern cloud solutions with decentralized architecture provide another approach for scalability.  
   
-CCS is capable to provide scalability solutions based on CCS repository and light router that supports only one message type having CCS binary for given SGDL specification and CCS repository ID.  
+CCS is capable to provide scalability solutions based on CCS repository and CCS Light router that supports only one message type by having a CCS binary for a given SGDL specification and CCS repository ID.  
    
 ## Security Based On Obfuscation  
-It is known that grammar recognition tasks are NP-complete. In simple words, NP-complete means that the task would run almost forever. Having CCS syntax-controlled binary, the task of the grammar recognition is NP-complete. Having CCS syntax-controlled runtime, obfuscated one way or another, with subsequent formal conversion into CCS syntax-controlled binary would make grammar recognition tasks even harder. Implementing obfuscation/de-obfuscation algorithms for CCS syntax-controlled runtime and binary is an advanced, patent protected way of transmitting data with built-in security features and content management. Keep in mind that patent describes any binary file transformation into CCS syntax-controlled runtime including video/audio streams. Having all forms of data transformed into CCS syntax-controlled runtime with a well defined logical syntax structure generic obfuscation/de-obfuscation algorithms can be implemented to provide security solutions. 
+It is known that grammar recognition tasks are NP-complete. In simple words, NP-complete means that the task would run almost forever. Having CCS syntax-controlled binary, the task of the grammar recognition is NP-complete. Having CCS syntax-controlled runtime, obfuscated one way or another, with subsequent formal conversion into CCS syntax-controlled binary would make grammar recognition tasks even harder. Implementing obfuscation/de-obfuscation algorithms for CCS syntax-controlled runtime and binary is an advanced, patent protected way of transmitting data with built-in security features and content management. Keep in mind that the patent describes any binary file transformation into CCS syntax-controlled runtime including video/audio streams. Having all forms of data transformed into CCS syntax-controlled runtime with a well defined logical syntax structure generic obfuscation/de-obfuscation algorithms can be implemented to provide security solutions. 
 
 A use case is described in the white paper.  
   
